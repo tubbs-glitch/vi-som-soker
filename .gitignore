@@ -1,0 +1,41 @@
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+.vercel/
+
+# Python venv (för bildgenerering)
+.venv/
+__pycache__/
+*.pyc
+
+# Capacitor / Xcode build artifacts
+web/ios/App/Pods/
+web/ios/App/App/public/          # genereras av `npx cap sync` från web/out/
+web/ios/App/App.xcworkspace/xcuserdata/
+web/ios/App/App.xcodeproj/xcuserdata/
+web/ios/App/App.xcodeproj/project.xcworkspace/xcuserdata/
+web/ios/DerivedData/
+web/ios/build/
+*.ipa
+
+# macOS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo

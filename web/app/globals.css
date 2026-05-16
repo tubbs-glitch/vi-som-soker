@@ -1,0 +1,354 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #0a0908;
+  --color-bg-2: #13110f;
+  --color-ink: #e9e3d4;
+  --color-ink-dim: #cfc6b3;
+  --color-muted: #7a7368;
+  --color-muted-soft: #52493e;
+  --color-accent: #9a3a2c;
+  --color-accent-dim: #5e2820;
+  --color-sun: #a8b5be;
+  --color-danger: #5a2828;
+}
+
+@layer base {
+  html,
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: var(--font-newsreader), Newsreader, Georgia, ui-serif, serif;
+    font-feature-settings: "kern", "liga", "calt", "onum";
+    font-variation-settings: "opsz" 16;
+    line-height: 1.75;
+    font-weight: 400;
+  }
+
+  ::selection {
+    background-color: var(--color-accent);
+    color: var(--color-ink);
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid var(--color-muted-soft);
+    margin: 2.5rem 0;
+  }
+}
+
+/* ──────── Texture: bone-paper grain ──────── */
+.grain-overlay {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  opacity: 0.06;
+  mix-blend-mode: overlay;
+  background-image: url("/grain.svg");
+  background-size: 220px 220px;
+}
+
+.image-grain {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: url("/grain.svg");
+  background-size: 280px 280px;
+  opacity: 0.18;
+  mix-blend-mode: overlay;
+}
+
+/* ──────── Scene prose ──────── */
+.scene-prose p {
+  margin-bottom: 1.4em;
+  font-variation-settings: "opsz" 18;
+  line-height: 1.85;
+  color: var(--color-ink);
+}
+
+.scene-prose p:first-of-type::first-letter {
+  font-family: var(--font-newsreader), Newsreader, Georgia, ui-serif, serif;
+  font-weight: 500;
+  font-size: 3.2em;
+  line-height: 0.9;
+  float: left;
+  margin: 0.15em 0.18em 0 -0.04em;
+  color: var(--color-accent);
+  font-variation-settings: "opsz" 60;
+}
+
+/* Staggered paragraph reveal */
+.stagger-prose > * {
+  opacity: 0;
+  animation: stagger-paragraph 650ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.stagger-prose > *:nth-child(1) { animation-delay: 60ms; }
+.stagger-prose > *:nth-child(2) { animation-delay: 160ms; }
+.stagger-prose > *:nth-child(3) { animation-delay: 260ms; }
+.stagger-prose > *:nth-child(4) { animation-delay: 360ms; }
+.stagger-prose > *:nth-child(5) { animation-delay: 460ms; }
+.stagger-prose > *:nth-child(6) { animation-delay: 560ms; }
+.stagger-prose > *:nth-child(7) { animation-delay: 660ms; }
+.stagger-prose > *:nth-child(8) { animation-delay: 760ms; }
+.stagger-prose > *:nth-child(n + 9) { animation-delay: 860ms; }
+
+@keyframes stagger-paragraph {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Marginal annotation label */
+.annotation {
+  font-family: var(--font-plex-mono), "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  font-weight: 400;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--color-muted);
+}
+
+/* Choice button */
+.choice-button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 0.95rem 1.1rem;
+  border: 1px solid var(--color-muted-soft);
+  background: transparent;
+  color: var(--color-ink-dim);
+  font-family: var(--font-newsreader), Newsreader, Georgia, ui-serif, serif;
+  font-variation-settings: "opsz" 18;
+  line-height: 1.5;
+  transition:
+    border-color 220ms ease,
+    color 220ms ease,
+    background-color 220ms ease,
+    transform 120ms ease;
+  cursor: pointer;
+}
+.choice-button:hover:not(:disabled) {
+  border-color: var(--color-accent);
+  color: var(--color-ink);
+  background-color: rgba(154, 58, 44, 0.05);
+}
+.choice-button:active:not(:disabled) {
+  transform: translateY(1px);
+}
+.choice-button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.choice-button[data-selected="true"] {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+  background-color: rgba(154, 58, 44, 0.06);
+}
+.choice-button[data-emphasis="true"] {
+  border-color: var(--color-accent);
+  color: var(--color-ink);
+  background-color: rgba(154, 58, 44, 0.04);
+}
+
+/* Scene title */
+.scene-title {
+  font-family: var(--font-newsreader), Newsreader, Georgia, ui-serif, serif;
+  font-weight: 400;
+  font-size: clamp(1.85rem, 4vw, 2.4rem);
+  line-height: 1.1;
+  letter-spacing: -0.012em;
+  font-variation-settings: "opsz" 36;
+  color: var(--color-ink);
+}
+
+.scene-eyebrow {
+  font-family: var(--font-plex-mono), "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  margin-bottom: 0.85rem;
+}
+
+/* Hero scene image */
+.hero-image {
+  position: relative;
+  margin: 0 -1.5rem 2.5rem;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: var(--color-bg-2);
+  border-top: 1px solid var(--color-muted-soft);
+  border-bottom: 1px solid var(--color-muted-soft);
+}
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: contrast(1.04) saturate(0.88);
+  animation: image-reveal 900ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.hero-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 55%,
+    rgba(10, 9, 8, 0.55) 100%
+  );
+}
+@media (min-width: 640px) {
+  .hero-image {
+    aspect-ratio: 3 / 2;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@keyframes image-reveal {
+  from {
+    opacity: 0;
+    transform: scale(1.02);
+    filter: contrast(1.04) saturate(0.88) blur(4px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+    filter: contrast(1.04) saturate(0.88) blur(0);
+  }
+}
+
+/* Outcome block */
+.outcome-block {
+  border-left: 1px solid var(--color-accent);
+  padding: 0.25rem 0 0.25rem 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.outcome-block .outcome-choice {
+  font-family: var(--font-plex-mono), "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  margin-bottom: 0.45rem;
+}
+.outcome-block .outcome-text {
+  font-family: var(--font-newsreader), Newsreader, Georgia, ui-serif, serif;
+  font-style: italic;
+  color: var(--color-ink-dim);
+  font-variation-settings: "opsz" 18;
+  line-height: 1.55;
+}
+
+/* Status panel */
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-plex-mono), "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.sanity-fokuserad { color: var(--color-ink); }
+.sanity-skakad { color: var(--color-ink-dim); }
+.sanity-vacklande { color: var(--color-sun); }
+.sanity-söndertrasad { color: var(--color-accent); }
+.sanity-avgrund { color: var(--color-danger); font-style: italic; }
+
+.wordmark {
+  font-family: var(--font-newsreader), Newsreader, Georgia, ui-serif, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-variation-settings: "opsz" 24;
+  letter-spacing: 0.02em;
+  color: var(--color-ink-dim);
+}
+
+/* ──────── Decorative ornament — mellan prosa och val ──────── */
+.ornament {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 2.5rem 0 1.5rem;
+  color: var(--color-muted-soft);
+}
+.ornament::before,
+.ornament::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--color-muted-soft) 30%,
+    var(--color-muted-soft) 70%,
+    transparent
+  );
+}
+.ornament-glyph {
+  font-family: var(--font-newsreader), Newsreader, Georgia, ui-serif, serif;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  letter-spacing: 0.3em;
+}
+
+/* ──────── Subtle viewport vignette ──────── */
+.viewport-vignette {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 49;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 50%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+}
+
+/* ──────── Hover ripple on choice buttons via inner border ──────── */
+.choice-button::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  pointer-events: none;
+  opacity: 0;
+  border: 1px solid var(--color-accent);
+  transition: opacity 220ms ease;
+}
+.choice-button {
+  position: relative;
+}
+.choice-button:hover:not(:disabled)::after {
+  opacity: 0.25;
+}
+
+.image-fade-in {
+  animation: image-reveal 900ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-fade-in {
+  animation: fade-in 700ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
