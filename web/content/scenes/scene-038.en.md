@@ -5,7 +5,7 @@ language: en
 act: 3
 type: BN
 triggers: [scene-037]
-exits: [scene-039, scene-040, scene-041, scene-042]
+exits: [scene-039, scene-040, scene-041, scene-042, scene-043]
 sanity_delta: -5
 flags_set: [ending]
 flags_read: [besegrat_det_grå, alice_med, leopold_med, valt_offra_sig, stoppat_permanent]

@@ -81,7 +81,10 @@ const CONSEQUENCE_BLOCK = /\*\(([^)]+)\)\*/g;
 const SANITY_IN_PROSE = /\bSanity\s*([+-])\s*(\d+)/i;
 // Gate-prefix: om dessa nyckelord finns i ett *(...)* block, är det en gate
 // (krav), inte en consequence (effekt). Vi ignorerar gates i nuvarande engine.
-const GATE_PREFIXES = /^\s*(om|kräver|if|requires)\b/i;
+// "triggas av" / "triggered by" används av meta-scener (t.ex. scene-038) som
+// resolver-tabeller — de ska aldrig parsas som consequence.
+const GATE_PREFIXES =
+  /^\s*(om|kräver|if|requires|triggas\s+av|triggered\s+by)\b/i;
 
 function normalizeSceneId(raw: unknown, fallback: string): string {
   // Filnamnet (fallback) är sanningskälla — YAML-frontmatter kan tolka
@@ -207,6 +210,16 @@ function parseConsequenceBlock(text: string): ChoiceConsequence | undefined {
     const eq = expr.match(/^([a-zA-ZåäöÅÄÖ_][\wåäöÅÄÖ]*)\s*=\s*(true|false)$/);
     if (eq) {
       (flags_set as Record<string, boolean>)[eq[1]] = eq[2] === "true";
+      continue;
+    }
+    // name=string (t.ex. vinds_tinget_status=sett, ritual_korrekt=full,
+    // salt_riktning=medurs, bär_halsband=sjätte, alice_övertygad_med=mamma).
+    // Strängvärdet får innehålla bokstäver + understreck.
+    const eqStr = expr.match(
+      /^([a-zA-ZåäöÅÄÖ_][\wåäöÅÄÖ]*)\s*=\s*([a-zA-ZåäöÅÄÖ_][\wåäöÅÄÖ]*)$/,
+    );
+    if (eqStr) {
+      (flags_set as Record<string, string>)[eqStr[1]] = eqStr[2];
       continue;
     }
     // name+N / name-N

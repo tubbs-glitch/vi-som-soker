@@ -35,7 +35,7 @@ Han står tyst i flera sekunder. Pistolen i hans pump klickar — tanken är ful
   "Hade en släkting i den där grejen på sjuttiotalet", säger han. Han säger inte vilken grej. Han letar i innerfickan, tar fram ett kvitto och en penna, skriver ett telefonnummer på baksidan. "Per-Magnus Berg. Han bor på Brovaktarns vårdboende i Östersund. Han svarar inte alltid men ibland gör han det." Han räcker dig lappen utan att möta din blick. "Säg ingenting till Gunnar om att jag gav den till dig." → scene-006 *(sätter `vet_om_per_magnus=true`, `vet_om_sallskapet_rykte=true`)*
 
 - **[Korta svar. Du har inte tid med en samtalsglad gubbe.]**
-  Du säger att du ska besöka släkt. Han nickar. Han tittar bort. Innan han kör har han lagt ett kvitto under din vindrutetorkare. Du läser det när han är borta — ett telefonnummer, ett namn, "Brovaktarns vårdboende, Östersund". Han har inte skrivit varför. → scene-006 *(sätter `vet_om_per_magnus=true`)*
+  Du säger att du ska besöka släkt. Han nickar. Han tittar bort. Innan han kör har han lagt ett kvitto under din vindrutetorkare. Du läser det när han är borta — ett telefonnummer, *Per-Magnus Berg, Brovaktarns vårdboende, Östersund*. Under namnet, med tunnare bläck: *släkting i den där grejen, 70-talet*. Han har inte skrivit varför. → scene-006 *(sätter `vet_om_per_magnus=true`, `vet_om_sallskapet_rykte=true`)*
 
 - **[Säg ingenting alls. Betala och kör.]**
   Du går in och betalar med kort. Tonåringen säger inget. När du kommer ut är gubben borta. Det är inget kvitto på din vindruta. → scene-006

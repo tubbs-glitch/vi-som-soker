@@ -58,4 +58,8 @@ Du står med nyckeln i fickan utan att ha tagit upp den än. Du tänker att du h
 
 ---
 
-**[Gå in nu — gå förbi honom mot dörren]** → *(om `vet_om_per_magnus=true`)* scene-009, annars scene-010
+- **[Ring Per-Magnus innan du går in]** *(kräver `vet_om_per_magnus=true`)*
+  Du tar upp lappen. Du står på trappan och slår numret. → scene-009
+
+- **[Gå in nu — gå förbi honom mot dörren]**
+  Du går de tre stegen. Han säger inget. Du sätter nyckeln i låset. → scene-010

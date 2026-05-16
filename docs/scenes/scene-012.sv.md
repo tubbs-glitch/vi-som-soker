@@ -67,8 +67,8 @@ Du är tillbaka i vardagsrummet. Pärmen på bordet, skivspelaren vid fönstret,
 - **[Sätt nålen på skivans yttre spår]** *(om `ström_på=true` och `hymnen_låten_på=false`)*
   Du går fram till skivspelaren. Tallriken snurrar i sitt jämna varv. Du tar nålen i armen och sänker den långsamt, så som man sänker en nål på en skiva, ingenting mer än det. Det knäpper en gång mot vinylen, sedan en gång till, och sedan börjar hymnen. Det är inte musik så som du minns musik. Det är något annat. Du står kvar några sekunder. Det räcker. Resten ska gå på det här ljudet. → tillbaka *(sätter `hymnen_låten_på=true`, `sanity -3`)*
 
-- **[Lyft på skivans nål]** *(om `hymnen_låten_på=true`)*
-  Du lyfter på nålen och sätter den åt sidan. Hyllan klickar. Hymnen tystnar i mitten av ett andetag den aldrig dragit. Du tänker först att det är klokt att inte ha den gående utan tillsyn. Sedan tänker du att hon startat den just nu av en anledning. Du sänker nålen tillbaka i samma spår, så nära du minns. → tillbaka
+- **[Lyft av skivans nål — stäng av hymnen]** *(om `hymnen_låten_på=true`)*
+  Du lyfter nålen och vrider av reglaget. Hymnen tystnar i mitten av ett andetag den aldrig dragit. Tallriken stannar i ett långsamt sista varv. Rummet blir så tyst att du hör pendelklockan tydligare än förut. Du tänker att det kanske var klokt. Du tänker också att hon startat den just nu av en anledning. → tillbaka *(sätter `hymnen_låten_på=false`, `sanity -2`)*
 
 - **[Stickningen]**
   Det är en barntröja, blå, hälften klar. Maskorna är jämna. Det är ett barn du inte vet vem det är. → tillbaka *(`sanity -1`)*

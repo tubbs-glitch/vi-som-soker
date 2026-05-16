@@ -58,4 +58,8 @@ You stand with the key in your pocket, not yet drawn. You think you have questio
 
 ---
 
-**[Go in now — past him, to the door]** → *(if `vet_om_per_magnus=true`)* scene-009, otherwise scene-010
+- **[Call Per-Magnus before you go in]** *(requires `vet_om_per_magnus=true`)*
+  You take out the slip. You stand on the step and dial. → scene-009
+
+- **[Go in now — past him, to the door]**
+  You take the three steps. He says nothing. You set the key in the lock. → scene-010

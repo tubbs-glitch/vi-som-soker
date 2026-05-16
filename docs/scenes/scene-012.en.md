@@ -67,8 +67,8 @@ You are back in the living room. The folder on the table, the record player at t
 - **[Lower the needle to the outer groove]** *(if `ström_på=true` and `hymnen_låten_på=false`)*
   You go to the record player. The platter turns at its even pace. You take the needle by the arm and lower it slowly, the way one lowers a needle onto a record, no more than that. There is a click against the vinyl, then another, and then the hymn begins. It is not music the way you remember music. It is something else. You stand a few seconds. That is enough. The rest of the night will be played to this sound. → back *(sets `hymnen_låten_på=true`, `sanity -3`)*
 
-- **[Lift the needle off the record]** *(if `hymnen_låten_på=true`)*
-  You lift the needle and set it to the side. The arm clicks. The hymn stops mid-breath, a breath it was never drawing. At first you think it is sensible not to let it run unattended. Then you think she started it just now for a reason. You lower the needle back into the same groove, as close to the place as you can remember. → back
+- **[Lift the needle off — stop the hymn]** *(if `hymnen_låten_på=true`)*
+  You lift the needle and turn the dial off. The hymn stops mid-breath, a breath it was never drawing. The platter slows through one last revolution. The room goes so quiet you can hear the pendulum more clearly than before. You think perhaps it was sensible. You think also that she started it just now for a reason. → back *(sets `hymnen_låten_på=false`, `sanity -2`)*
 
 - **[The knitting]**
   It is a child's jumper, blue, half finished. The stitches are even. It is a child you do not know. → back *(`sanity -1`)*

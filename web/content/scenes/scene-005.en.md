@@ -35,7 +35,7 @@ He stands quiet for several seconds. The trigger on his pump clicks — his tank
   'Had a relative in that whole business in the seventies,' he says at last. He does not say what business. He reaches inside his jacket, takes out a till receipt and a pen, writes a phone number on the back. 'Per-Magnus Berg. He's at the Brovaktarn care home in Östersund. He doesn't always answer. Sometimes he does.' He passes you the slip without meeting your eye. 'Don't tell Gunnar I gave it to you.' → scene-006 *(sets `vet_om_per_magnus=true`, `vet_om_sallskapet_rykte=true`)*
 
 - **[Short answers. You haven't time for a chatty stranger.]**
-  You say you're visiting family. He nods. He looks away. Before he drives off he leaves a slip of paper under your wiper. You read it when he is gone — a phone number, a name, 'Brovaktarn care home, Östersund'. He has not written why. → scene-006 *(sets `vet_om_per_magnus=true`)*
+  You say you're visiting family. He nods. He looks away. Before he drives off he leaves a slip of paper under your wiper. You read it when he is gone — a phone number, *Per-Magnus Berg, Brovaktarn care home, Östersund*. Under the name, in thinner ink: *relative in that whole business, '70s*. He has not written why. → scene-006 *(sets `vet_om_per_magnus=true`, `vet_om_sallskapet_rykte=true`)*
 
 - **[Say nothing. Pay and leave.]**
   You go in and pay by card. The teenager says nothing. When you come out the old man has gone. There is no slip under your wiper. → scene-006

@@ -186,14 +186,22 @@ export interface StoryFlags {
   set_kort_om_omgivningen: boolean;
   vet_om_olov: boolean;
   gunnar_först_möte_klart: boolean;
+  gunnar_vet_om_leopold: boolean;
+  gunnar_vet_om_hundarna: boolean;
+  gunnar_obekväm: boolean;
 
   // Akt II - utforskning
   har_tjarsten: boolean;
   har_ljus: boolean;
   har_mejerinyckel: boolean;
+  har_lab_anteckningar: boolean;
   har_läst_lab_anteckningar: boolean;
   har_läst_dagboken: boolean;
   har_läst_astrids_parm: boolean;
+  har_vinds_mat: boolean;
+  alice_pärm_läst: boolean;
+  sett_gruppfoto: boolean;
+  hymnen_låten_på: boolean;
   vet_om_trälårs_kod: boolean;
   vet_om_signe: boolean;
   läst_namn: boolean;
