@@ -11,7 +11,7 @@ flags_set: []
 flags_read: []
 ---
 
-Du står utanför vedboden. Falurött plåt, en svart dörr. Det är samma byggnad du redan har varit i — det är där ugglan satt, det är där säkringsskåpet hänger.
+Du står utanför vedboden. Faluröd plåt, en svart dörr. Det är samma byggnad du redan har varit i — det är där ugglan satt, det är där säkringsskåpet hänger.
 
 Knottet bryr sig inte om dig nu. Det bryr sig inte om någonting.
 

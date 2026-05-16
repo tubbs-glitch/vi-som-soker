@@ -64,16 +64,16 @@ You are back in Leopold's study. The desk with its papers, the photograph with s
 ## Choices
 
 - **[Skim the notes]**
-  You leaf three pages in. It is about vibration, a membrane, something opening. You don't read all of it. You read enough. → back *(sets `har_lab_anteckningar=true`, `förstår_frekvens+1`, `sanity -4`)*
+  You leaf three pages in. It is about vibration, a membrane, something opening. You don't read all of it. You read enough. → back *(sets `har_lab_anteckningar=true`, `förstår_frekvens+1`, `sanity -3`)*
 
 - **[Read carefully]**
   You sit down on the sheepskin and read for twenty minutes. It is about thinning a membrane. About how thin it can become before it goes. About what is on the other side. He writes plainly about things that should not be written about at all. You stand up too quickly when you have finished. The room takes a second to be where the room should be. → back *(sets `har_lab_anteckningar=true`, `förstår_frekvens+2`, `sanity -10`)*
 
 - **[Take the brass key marked M]**
-  You lift it from the hook. It is heavier than the others. You put it in your inner pocket. You look through the window again at the building. → back *(sets `har_mejerinyckel=true`, `sanity -2`)*
+  You lift it from the hook. It is heavier than the others. You put it in your inner pocket. You look through the window again at the building. → back *(sets `har_mejerinyckel=true`, `sanity -1`)*
 
 - **[Look at the group photograph]**
-  You move closer to the frame. Seven faces. Two crossed out — an older woman in large spectacles, a younger man with a beard. You see if you can lift the frame off the nail. You can. *Hällmyren, Midsummer's Eve 1981.* No names. You put it back on the nail as level as you can. → back *(sets `sett_gruppfoto=true`, `vet_om_sallskapet_rykte=true`, `sanity -3`)*
+  You move closer to the frame. Seven faces. Two crossed out — an older woman in large spectacles, a younger man with a beard. You see if you can lift the frame off the nail. You can. *Hällmyren, Midsummer's Eve 1981.* No names. You put it back on the nail as level as you can. → back *(sets `sett_gruppfoto=true`, `vet_om_sallskapet_rykte=true`, `sanity -2`)*
 
 - **[Leave the room without touching anything]**
   → back

@@ -31,7 +31,7 @@ Det grå är inte tjockare nu. Det är bara med dig. Det är ett rum som inte ä
 
 Du ser henne ur ögonvrån.
 
-Hon står med ryggen mot, som hon alltid har stått. Hon vänder huvudet inte mer än hon någonsin har vänt det. Men hon räcker ut en hand. Inte mot ansiktet — inte hennes ansikte och inte ditt. Hon lägger handen över din axel. Den är inte tung. Den är inte heller lätt.
+Hon står med ryggen mot, som hon alltid har stått. Hon vänder inte huvudet mer än hon någonsin har vänt det. Men hon räcker ut en hand. Inte mot ansiktet — inte hennes ansikte och inte ditt. Hon lägger handen över din axel. Den är inte tung. Den är inte heller lätt.
 
 Hon säger inget. Det är inget att säga.
 

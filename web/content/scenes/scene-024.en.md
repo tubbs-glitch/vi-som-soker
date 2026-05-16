@@ -22,10 +22,10 @@ The padlock on the door is old. A brass patent lock, once bright.
 ## Choices
 
 - **[Use the dairy key]** *(requires `har_mejerinyckel=true`)*
-  You set the key in. It turns without resistance, as though the lock had not been used in decades but had still been kept oiled — which is, perhaps, worse. The door opens inward. You go in. → continue *(sets `oppnat_mejeri=true`, `vet_om_sallskapet=true`, `sallskaps_lager_aktivt=true`, `sanity -12`)*
+  You set the key in. It turns without resistance, as though the lock had not been used in decades but had still been kept oiled — which is, perhaps, worse. The door opens inward. You go in. → continue *(sets `oppnat_mejeri=true`, `vet_om_sallskapet=true`, `sallskaps_lager_aktivt=true`, `sanity -3`)*
 
 - **[Force it with a tool]** *(requires `verktyg=true` or `skarpt=true`)*
-  You set the knife or the pry-iron against the lock plate. It takes time. You wrench, twist, wrench again. When it gives it is with a sound you do not like. You stand with splinters on your shoe. You have done something to this building before you have seen the inside of it. → continue *(sets `oppnat_mejeri=true`, `brutit_in_i_mejeri=true`, `vet_om_sallskapet=true`, `sallskaps_lager_aktivt=true`, `sanity -15`)*
+  You set the knife or the pry-iron against the lock plate. It takes time. You wrench, twist, wrench again. When it gives it is with a sound you do not like. You stand with splinters on your shoe. You have done something to this building before you have seen the inside of it. → continue *(sets `oppnat_mejeri=true`, `brutit_in_i_mejeri=true`, `vet_om_sallskapet=true`, `sallskaps_lager_aktivt=true`, `sanity -8`)*
 
 - **[Leave the building alone]**
   You turn. You walk back the way you came. You know you will return. You do not know when. → back

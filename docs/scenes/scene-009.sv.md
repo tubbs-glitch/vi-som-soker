@@ -53,4 +53,4 @@ Du står med mobilen i handen. Du står där tills batteriindikatorn slocknar i 
 
 ## Val
 
-- **[Gå in nu]** → scene-010 *(sätter `vet_om_tjarsten_korrekt=true`, `vet_om_per_magnus_djup=true`, `sanity -2`)*
+- **[Gå in nu]** → scene-010 *(sätter `vet_om_tjarsten_korrekt=true`, `vet_om_per_magnus_djup=true`, `sanity -1`)*

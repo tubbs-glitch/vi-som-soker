@@ -26,7 +26,7 @@ The second verse begins overhead. You do not have much time.
 ## Choices
 
 - **[Strew clockwise, beat 47]** *(requires `har_tjarsten=true`)*
-  You begin in the north. You take the ring clockwise. You count the beats through the second verse, into the third; your footstep lands on beat 47. The circle glows, or appears to — it is a light you are not sure you are seeing with your eyes. → continue *(sets `ritual_korrekt=full`, `salt_riktning=medurs`, `sanity +3`)*
+  You begin in the north. You take the ring clockwise. You count the beats through the second verse, into the third; your footstep lands on beat 47. The circle glows, or appears to — it is a light you are not sure you are seeing with your eyes. → continue *(sets `ritual_korrekt=full`, `salt_riktning=medurs`, `sanity +5`)*
 
 - **[Strew anticlockwise, beat 47]** *(requires `har_tjarsten=true`)*
   You go anticlockwise — the older note, Leopold's earliest. You come in on beat 47. The circle opens on the wrong side. It works anyway. → continue *(sets `ritual_korrekt=partial`, `salt_riktning=motsols`, `sanity -5`)*
@@ -49,4 +49,4 @@ You take the step.
 
 ## Choices
 
-**[In]** → scene-032 *(sets `klivit_in_i_portalen=true`, `hymnen_börjat=true`, `sanity -10`)*
+**[In]** → scene-032 *(sets `klivit_in_i_portalen=true`, `hymnen_börjat=true`, `sanity -1`)*

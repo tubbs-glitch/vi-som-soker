@@ -49,7 +49,7 @@ Du ger Gunnar lappen.
 
 Han håller den. Han bryter inte sigillet direkt. Han håller den länge.
 
-Sedan sätter han sig på den stora stenen vid brevlådan och bryter försegligen med tumnageln. Han läser. Det tar honom en kvart. När han är klar viker han pappret långsamt och stoppar in det i bröstfickan. Han säger ingenting. Du sätter dig bredvid honom. Ni ser bägge mot kalfjället.
+Sedan sätter han sig på den stora stenen vid brevlådan och bryter sigillet med tumnageln. Han läser. Det tar honom en kvart. När han är klar viker han pappret långsamt och stoppar in det i bröstfickan. Han säger ingenting. Du sätter dig bredvid honom. Ni ser bägge mot kalfjället.
 
 ## Val
 

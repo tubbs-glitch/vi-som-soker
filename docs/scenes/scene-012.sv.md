@@ -13,7 +13,7 @@ flags_read: [ström_på, hymnen_låten_på]
 
 Vardagsrummet är en form. Du ser silhuetten av en soffa, två fåtöljer, ett bord. Klockan på väggen syns inte — den hörs bara. Pendeln rör sig. Den är för långsam.
 
-Det norra fönstret slipper in ett blått skymningsljus som inte räcker ända in. Bortom rutan myren. Bortom myren granskog som inte tar emot något ljus.
+Det norra fönstret släpper in ett blått skymningsljus som inte räcker ända in. Bortom rutan myren. Bortom myren granskog som inte tar emot något ljus.
 
 Du anar något vid bordet. En kvadrat — en pärm, kanske. Stickorna lagda i kors på ovansidan, du ser bara hur formen bryts. Du går inte fram än.
 

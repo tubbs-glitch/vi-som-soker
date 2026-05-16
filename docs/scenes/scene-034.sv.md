@@ -42,7 +42,7 @@ Hon väntar.
 ## Val
 
 - **[Lyssna helt på henne]**
-  Du står kvar tills hon slutar. Hon slutar inte. Hon säger samma sak flera gånger med små skillnader och du börjar förstå att skillnaderna är vad hon vill säga. Du står där tills du har sagt något själv. Du säger: *Jag har varit vid din sten.* Hon vänder inte huvudet. Men hon säger: *Tack.* → scene-035 *(sätter `talat_med_ingegerd=true`, `ingegerd_eko+2`, `sanity -10`)*
+  Du står kvar tills hon slutar. Hon slutar inte. Hon säger samma sak flera gånger med små skillnader och du börjar förstå att skillnaderna är vad hon vill säga. Du står där tills du har sagt något själv. Du säger: *Jag har varit vid din sten.* Hon vänder inte huvudet. Men hon säger: *Tack.* → scene-035 *(sätter `talat_med_ingegerd=true`, `ingegerd_eko+2`, `sanity -4`)*
 
 - **[Vänd ryggen]**
-  Du vänder dig bort. Du går inte — det finns inget att gå emot — men du står på andra hållet. Hon talar inte mer. Hon väntar. → scene-035 *(`sanity -2`)*
+  Du vänder dig bort. Du går inte — det finns inget att gå emot — men du står på andra hållet. Hon talar inte mer. Hon väntar. → scene-035 *(`sanity -1`)*

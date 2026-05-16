@@ -62,10 +62,10 @@ Du är tillbaka i gästrummet. Sängen, garderoben utan handtag, kommoden med va
 ## Val
 
 - **[Ta upp den sjunde]**
-  Du håller den i handen. Lädret är torrt, brickan kall. Det är ett halsband som behöver bäras. Du sätter den i innerfickan. → tillbaka *(sätter `bär_halsband=sjunde`, `vet_om_signe=true`, `sanity -2`)*
+  Du håller den i handen. Lädret är torrt, brickan kall. Det är ett halsband som behöver bäras. Du sätter den i innerfickan. → tillbaka *(sätter `bär_halsband=sjunde`, `vet_om_signe=true`, `sanity -1`)*
 
 - **[Ta upp den sjätte]**
-  Du tittar på datumet. *Signe V 2011–2017.* Sex år. Du minns att Alice grät i telefonen den hösten. Du minns att du inte ringde tillbaka. → tillbaka *(sätter `bär_halsband=sjätte`, `vet_om_signe=true`, `sanity -3`)*
+  Du tittar på datumet. *Signe V 2011–2017.* Sex år. Du minns att Alice grät i telefonen den hösten. Du minns att du inte ringde tillbaka. → tillbaka *(sätter `bär_halsband=sjätte`, `vet_om_signe=true`, `sanity -2`)*
 
 - **[Läs alla namn högt]**
   Du läser dem som hon själv hade gjort. Det tar tid att säga dem. Det blir för tyst i rummet mellan namnen. När du är klar finns det inget annat ljud i huset än klockan i vardagsrummet, och den hör du inte härifrån. → tillbaka *(sätter `läst_namn=true`, `vet_om_signe=true`, `sanity -8`)*

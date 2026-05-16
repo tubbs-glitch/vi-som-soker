@@ -226,7 +226,35 @@ export default function SceneView({ initialScene, initialAvailable }: Props) {
   const playableChoices = useMemo(() => {
     if (!scene)
       return [] as Array<{ choice: Choice; allowed: boolean; reason?: string }>;
-    return scene.choices.map((c) => {
+
+    // Q&A-mechanic: hide self-loop choices that have already been clicked
+    // in this scene, and (when max_choices is set) hide all remaining
+    // self-loop choices once the limit is reached so the player is forced
+    // onward via the "Go on" exit.
+    const selfLoopUsedCount = state.meta.choices_log.filter(
+      (e) => e.scene_id === scene.id && e.choice_id !== `${scene.id}-c-continue`,
+    ).length;
+
+    const usedChoiceIds = new Set(
+      state.meta.choices_log
+        .filter((e) => e.scene_id === scene.id)
+        .map((e) => e.choice_id),
+    );
+
+    const visibleAfterFilter = scene.choices.filter((c) => {
+      const isSelfLoop = c.next_scene === scene.id;
+      // Never filter the auto-generated continue choice.
+      if (c.id === `${scene.id}-c-continue`) return true;
+      if (isSelfLoop) {
+        if (usedChoiceIds.has(c.id)) return false;
+        if (scene.max_choices && selfLoopUsedCount >= scene.max_choices) {
+          return false;
+        }
+      }
+      return true;
+    });
+
+    return visibleAfterFilter.map((c) => {
       const r = canChoose(c, state);
       return { choice: c, allowed: r.allowed, reason: r.reason };
     });

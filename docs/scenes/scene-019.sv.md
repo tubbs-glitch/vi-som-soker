@@ -29,13 +29,13 @@ På handfatets kant ligger en hårborste. Valnötsskaft. Långt grått hår i bo
 
 Du flyttar käglan upp till spegeln. En spricka uppe i hörnet som ingen har bytt. Du ser dig själv i ljuset — du och bara du. Du tittar inte länge.
 
-Käglan vandrar mot badkaret. Klotassar. Tunna ringar av rost där de möter golvet. Vid foten av badkaret står ett par strumpor. Brun ull. Hon var här innan hon inte var det.
+Käglan vandrar mot badkaret. Lejontassar. Tunna ringar av rost där de möter golvet. Vid foten av badkaret står ett par strumpor. Brun ull. Hon var här innan hon inte var det.
 
 Du höjer käglan mot fönstret. Spärren är öppen — fyra centimeter, ingen mer. Knottet kommer in genom springan, ett i taget, in i käglans ljus och ut igen.
 
 ## När strömmen är på
 
-Badrummet är litet, klätt med vita kakelplattor från sjuttiotalet med en blå bård längs övre kanten. Ett badkar med klotassar, ett handfat med en porslinsplugg, en spegel med en spricka uppe i hörnet som ingen har bytt. Det luktar kall fukt och tvål och något annat — torrt och animaliskt — som hund kanske, gammal hund, fastän det inte har funnits en hund i huset på år.
+Badrummet är litet, klätt med vita kakelplattor från sjuttiotalet med en blå bård längs övre kanten. Ett badkar med lejontassar, ett handfat med en porslinsplugg, en spegel med en spricka uppe i hörnet som ingen har bytt. Det luktar kall fukt och tvål och något annat — torrt och animaliskt — som hund kanske, gammal hund, fastän det inte har funnits en hund i huset på år.
 
 Kranen droppar. Dropparna är ojämna. Du står ett tag och lyssnar — du försöker hitta takten — och så fort du tror att du har den, hoppar den över.
 

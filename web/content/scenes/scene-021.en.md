@@ -45,4 +45,4 @@ You have one hand on the hatch. You have one foot on the top step. You have not 
   You bring out the knife. The thing does not move. You take two steps in. You draw the blade along its side — it goes through something that is not fur and is not air. It does not cry out. It runs off on the wrong number of legs, into the dim behind the old chimney, and you do not see it again. You stand with the knife in your hand. On the blade there is nothing. → back *(sets `vinds_tinget_status=sårat`, `sanity -18`)*
 
 - **[Step back, close the hatch]**
-  You take your foot off the top step. You drop one step down. You drop one more. You take hold of the hatch from below — arm stretched — and pull it after you. It closes softly. You stand on the stair and hear nothing move up there. You stand too long. → back *(sets `vinds_tinget_status=undviket`, `sanity -10`)*
+  You take your foot off the top step. You drop one step down. You drop one more. You take hold of the hatch from below — arm stretched — and pull it after you. It closes softly. You stand on the stair and hear nothing move up there. You stand too long. → back *(sets `vinds_tinget_status=undviket`, `sanity -8`)*

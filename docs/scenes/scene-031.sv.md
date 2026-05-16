@@ -26,7 +26,7 @@ Hymnens andra strof börjar däruppe. Du har inte mycket tid.
 ## Val
 
 - **[Strö medurs, takt 47]** *(kräver `har_tjarsten=true`)*
-  Du börjar i norr. Du går rundan medurs. Du räknar takterna under andra strofen, kommer in i tredje, ditt fotsteg landar på taktslaget 47. Cirkeln glöder, eller verkar göra det — det är ett ljus du inte är säker på att du ser med ögonen. → fortsätt *(sätter `ritual_korrekt=full`, `salt_riktning=medurs`, `sanity +3`)*
+  Du börjar i norr. Du går rundan medurs. Du räknar takterna under andra strofen, kommer in i tredje, ditt fotsteg landar på taktslaget 47. Cirkeln glöder, eller verkar göra det — det är ett ljus du inte är säker på att du ser med ögonen. → fortsätt *(sätter `ritual_korrekt=full`, `salt_riktning=medurs`, `sanity +5`)*
 
 - **[Strö motsols, takt 47]** *(kräver `har_tjarsten=true`)*
   Du går motsols — den äldre anteckningen, Leopolds första. Du kommer in på takt 47. Cirkeln öppnar sig på fel sida. Den fungerar ändå. → fortsätt *(sätter `ritual_korrekt=partial`, `salt_riktning=motsols`, `sanity -5`)*
@@ -49,4 +49,4 @@ Du tar klivet.
 
 ## Val
 
-**[In]** → scene-032 *(sätter `klivit_in_i_portalen=true`, `hymnen_börjat=true`, `sanity -10`)*
+**[In]** → scene-032 *(sätter `klivit_in_i_portalen=true`, `hymnen_börjat=true`, `sanity -1`)*

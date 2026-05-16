@@ -64,13 +64,13 @@ You are back in the cellar store. The spade in the corner, the shelf of boxes, t
 ## Choices
 
 - **[Take batteries and tjärsten]**
-  You put the two batteries in one pocket, the jar in the other. The jar is heavier than it looks. → back *(sets `har_tjarsten=true`, `sanity -2`)*
+  You put the two batteries in one pocket, the jar in the other. The jar is heavier than it looks. → back *(sets `har_tjarsten=true`, `sanity -1`)*
 
 - **[Take only batteries]**
   You leave the jar where it stands. It is not yours. You close the lid before you go. → back
 
 - **[Look at the calendar]**
-  You move closer. On the 23rd of June 1981 someone has written *IH goes in*, in the same firm hand as the margin in Alice's bedroom. On the 24th of June: *She did not come back.* You stand a while. → back *(`sanity -4`)*
+  You move closer. On the 23rd of June 1981 someone has written *IH goes in*, in the same firm hand as the margin in Alice's bedroom. On the 24th of June: *She did not come back.* You stand a while. → back *(`sanity -3`)*
 
 - **[Back upstairs]**
   → back

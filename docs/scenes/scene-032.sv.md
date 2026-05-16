@@ -33,4 +33,4 @@ Det är inte ljud. Det är att något börjar.
 
 ## Val
 
-**[Vidare]** → scene-033 *(`sanity -5`)*
+**[Vidare]** → scene-033 *(`sanity -2`)*

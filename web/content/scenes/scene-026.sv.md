@@ -53,10 +53,10 @@ Du lägger papperen tillbaka. Eller du gör det inte.
 ## Val
 
 - **[Ta halsbandet, brevet och lappen till Gunnar]**
-  Du lägger halsbandet i innerfickan. Du viker brevet och stoppar in det. Du tar lappen försiktigt — som om papperet skulle gå sönder av att hållas. → tillbaka *(sätter `vet_om_bertil=true`, `bär_attonde_halsband=true`, `har_lapp_till_gunnar=true`, `sanity -15`)*
+  Du lägger halsbandet i innerfickan. Du viker brevet och stoppar in det. Du tar lappen försiktigt — som om papperet skulle gå sönder av att hållas. → tillbaka *(sätter `vet_om_bertil=true`, `bär_attonde_halsband=true`, `har_lapp_till_gunnar=true`, `sanity -10`)*
 
 - **[Ta bara halsbandet och brevet]**
-  Lappen ligger kvar. Den är inte din. Den är till Gunnar och den har legat och väntat på honom i en låst låda i femtiofyra år. Du klarar inte att ta den med dig. → tillbaka *(sätter `vet_om_bertil=true`, `bär_attonde_halsband=true`, `sanity -15`)*
+  Lappen ligger kvar. Den är inte din. Den är till Gunnar och den har legat och väntat på honom i en låst låda i femtiofyra år. Du klarar inte att ta den med dig. → tillbaka *(sätter `vet_om_bertil=true`, `bär_attonde_halsband=true`, `sanity -8`)*
 
 - **[Läs allt, ta inget]**
-  Du läser. Du lägger tillbaka allt exakt där det låg. Du stänger locket. Du skakar tillbaka sifferhjulen så de inte står på koden. Du har sett. Det räcker. → tillbaka *(sätter `vet_om_bertil=true`, `sanity -12`)*
+  Du läser. Du lägger tillbaka allt exakt där det låg. Du stänger locket. Du skakar tillbaka sifferhjulen så de inte står på koden. Du har sett. Det räcker. → tillbaka *(sätter `vet_om_bertil=true`, `sanity -3`)*

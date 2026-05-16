@@ -11,9 +11,9 @@ flags_set: [vet_om_ugglan]
 flags_read: []
 ---
 
-Vedboden står lite snett. Den har varit lutad så länge att gräset under östra hörnet har gett vika och blivit en jordklut. Plåt målad i falurött över timret, en låg port, en träknall i stället för lås — en handsmidd trästicka som dragits genom en järnögla och håller dörren tillsluten. Människor utan tjuvar har inga lås.
+Vedboden står lite snett. Den har varit lutad så länge att gräset under östra hörnet har gett vika och blivit en jordklut. Plåt målad i falurött över timret, en låg port, en träknall i stället för lås — en handtäljd trästicka som dragits genom en järnögla och håller dörren tillsluten. Människor utan tjuvar har inga lås.
 
-Du står framför dörren. Den når dig till bröstet. En knottflock virrar mellan dig och plåten. Du drar undan knallen ur öglan. Den glider ut tyst — träet är glatt av många händers handslag.
+Du står framför dörren. Den når dig till bröstet. En knottflock virvlar mellan dig och plåten. Du drar undan knallen ur öglan. Den glider ut tyst — träet är glatt av många händers handslag.
 
 Då hör du det.
 

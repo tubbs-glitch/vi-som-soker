@@ -32,10 +32,10 @@ The binder ends on that page. The remaining tabs are empty.
 ## Choices
 
 - **[Skim it and set it back]**
-  You close the binder. You set it exactly where it stood. The dust around its place is still visible. → back *(`sanity -2`)*
+  You close the binder. You set it exactly where it stood. The dust around its place is still visible. → back *(`sanity -1`)*
 
 - **[Read carefully — every tab]**
-  You read for forty minutes. You read of the tone, of the geometry, of the three trials. You read her last sentence, dated August 1983, two weeks before she herself did not return from the bog: *This is no longer research. It is a room we cannot lock.* You take the binder with you. → back *(sets `har_läst_astrids_parm=true`, `vet_om_astrid=true`, `vet_om_ingegerd=true`, `astrid_eko+1`, `sanity -8`)*
+  You read for forty minutes. You read of the tone, of the geometry, of the three trials. You read her last sentence, dated August 1983, two weeks before she herself did not return from the bog: *This is no longer research. It is a room we cannot lock.* You take the binder with you. → back *(sets `har_läst_astrids_parm=true`, `vet_om_astrid=true`, `vet_om_ingegerd=true`, `astrid_eko+1`, `sanity -6`)*
 
 - **[Stop reading now]**
-  You take your hand off the paper. You stand. The binder lies open. → back *(sets `vet_om_astrid=true`, `vet_om_ingegerd=true`, `sanity -4`)*
+  You take your hand off the paper. You stand. The binder lies open. → back *(sets `vet_om_astrid=true`, `vet_om_ingegerd=true`, `sanity -2`)*

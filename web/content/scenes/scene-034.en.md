@@ -42,7 +42,7 @@ She waits.
 ## Choices
 
 - **[Listen fully]**
-  You stay until she stops. She does not stop. She says the same thing in small variations, and you begin to understand that the variations are what she means to say. You stand there until you have said something yourself. You say: *I have been to your stone.* She does not turn her head. But she says: *Thank you.* → scene-035 *(sets `talat_med_ingegerd=true`, `ingegerd_eko+2`, `sanity -10`)*
+  You stay until she stops. She does not stop. She says the same thing in small variations, and you begin to understand that the variations are what she means to say. You stand there until you have said something yourself. You say: *I have been to your stone.* She does not turn her head. But she says: *Thank you.* → scene-035 *(sets `talat_med_ingegerd=true`, `ingegerd_eko+2`, `sanity -4`)*
 
 - **[Turn away]**
-  You turn away. You do not walk — there is nothing to walk against — but you stand the other way. She speaks no more. She waits. → scene-035 *(`sanity -2`)*
+  You turn away. You do not walk — there is nothing to walk against — but you stand the other way. She speaks no more. She waits. → scene-035 *(`sanity -1`)*

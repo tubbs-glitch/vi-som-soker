@@ -61,15 +61,18 @@ export default function AudioSync() {
   function toggle() {
     if (!unlocked) {
       audioController.unlock();
-      // Trigger initial scene-load + hymn-sync nu när vi är unlocked
-      audioController.setScene(sceneId);
-      audioController.setHymnPlaying(hymnOn);
+      // Trigger initial scene-load + hymn-sync nu när vi är unlocked.
+      // I char-creation finns ingen aktiv scen — sätt en intro-zon manuellt.
+      if (phase === "playing") {
+        audioController.setScene(sceneId);
+        audioController.setHymnPlaying(hymnOn);
+      } else {
+        audioController.setScene("scene-001"); // intro-zon
+      }
     } else {
       audioController.setMuted(!muted);
     }
   }
-
-  if (phase === "char-creation") return null;
 
   return (
     <button

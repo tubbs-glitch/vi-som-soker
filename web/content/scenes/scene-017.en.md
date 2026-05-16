@@ -62,7 +62,7 @@ You are back in Alice's room. The bed blue-checked, the diary on the desk, the s
 ## Choices
 
 - **[Skim the last page]**
-  *The power has been off since Thursday. The record has not played in a week. I shall walk to the woodshed tomorrow. I shall wait until L answers.* In the margin, in a firm hand: *1979-06-23.* You think it is a date. Then you see it has been written without separators — *19790623* — as a combination. → back *(sets `förstår_alice+1`, `vet_om_trälårs_kod=true`, `sanity -3`)*
+  *The power has been off since Thursday. The record has not played in a week. I shall walk to the woodshed tomorrow. I shall wait until L answers.* In the margin, in a firm hand: *1979-06-23.* You think it is a date. Then you see it has been written without separators — *19790623* — as a combination. → back *(sets `förstår_alice+1`, `vet_om_trälårs_kod=true`, `sanity -2`)*
 
 - **[Read the diary — six years of it]**
   You sit on the edge of the bed. You read for forty minutes. You read about seven dogs, one at a time, one grave a year. You read about waiting for a man who is not coming home. You read about a frequency, about a beat, about a body she does not believe is still there but cannot let go of either. You read about a brother she has not let go of either. She mentions him once. *He was not your father,* she writes. *He was mine. And I knew.* You have a mother named Inger. You have never heard of a brother. You have not asked, either. → back *(sets `förstår_alice+2`, `vet_om_trälårs_kod=true`, `har_läst_dagboken=true`, `sanity -10`, `alice+1`)*

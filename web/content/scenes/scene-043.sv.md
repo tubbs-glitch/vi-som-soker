@@ -17,7 +17,7 @@ Du står där du står.
 
 Det blev tyst.
 
-Det blev tyst innan ekot tunnades ut. Det blev tyst medan du fortfarande hade en hand mot Alice axel. Du har den fortfarande där. Men hon är inte där.
+Det blev tyst innan ekot tunnades ut. Det blev tyst medan du fortfarande hade en hand mot Alices axel. Du har den fortfarande där. Men hon är inte där.
 
 Det är grått.
 

@@ -6,6 +6,7 @@ act: 1
 type: G
 triggers: [scene-007]
 exits: [scene-010, scene-009]
+max_choices: 3
 sanity_delta: 0
 flags_set: [gunnar_tillit, vet_om_olov, gunnar_först_möte_klart, gunnar_vet_om_leopold, gunnar_vet_om_hundarna, gunnar_obekväm]
 flags_read: [vet_om_per_magnus]

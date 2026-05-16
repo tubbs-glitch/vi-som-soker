@@ -15,7 +15,7 @@ Vägen tar slut. Den smalnar in i sista kurvan och sedan finns det bara den lill
 
 Du stänger av motorn. Du sitter kvar.
 
-Klockan är tjugo över nio på kvällen. Solen står över fjällkanten i nordväst — en handsbredd över silhuetten. Den kommer inte gå ner. Du har inte tänkt på det förrän nu och nu tänker du på det.
+Klockan är tjugo över nio på kvällen. Solen står över fjällkanten i nordväst — en handsbredd över silhuetten. Den kommer inte att gå ner. Du har inte tänkt på det förrän nu och nu tänker du på det.
 
 Sätesgården står där den alltid stått. Falurött timmer, vita knutar som flagnat så pass att grundvitt syns under. Två fönster i bottenvåningen, tre på övervåningen, en farstu mot ladugårdsbacken. Bakom huset, mellan huset och fjället, öppnar myren ut sig — flat, blank, omöjlig att gå rakt över. Bakom myren reser sig kalfjället. Det är 6 km bort och ser ut som 1.
 

@@ -23,7 +23,7 @@ Du vet också att ingen har sagt det.
 
 Du tänker att du har två tankar. Du har dem samtidigt och de drar inte åt samma håll.
 
-Den första är: jag ska gå dit ner och få henne hem. Jag bryr mig inte vad det kostar.
+Den första är: jag ska gå dit ner och få henne hem. Jag bryr mig inte om vad det kostar.
 
 Den andra är: någon ska stänga det. Det har stått öppet i femtiotvå år. Det har tagit sex personer.
 
@@ -38,4 +38,4 @@ Den tredje är inte en tanke. Den är att du inte vet.
   Du står med handen kvar mot väggen. Det är inte ett val mot Alice. Det är ett val för det som ska finnas kvar när Alice är borta — och en dag ska Alice vara borta, oavsett. Du tänker på Bertil. Du tänker på Astrid. Du tänker på en kvinna du aldrig sett som tog ett steg in i en cirkel den 23 juni 1981. → scene-031 *(sätter `vagval_intention=stoppa`, `det_grå-1`)*
 
 - **[Jag bestämmer på andra sidan]**
-  Du tänker inte färdigt. Du tror inte att du behöver. Du kommer veta när du står där. Du tar av andra skon också, sätter ner den parallellt, du står på sockorna på de kalla tiljorna. → scene-031 *(sätter `vagval_intention=obeslutsam`)*
+  Du tänker inte färdigt. Du tror inte att du behöver. Du kommer att veta när du står där. Du tar av andra skon också, sätter ner den parallellt, du står på sockorna på de kalla tiljorna. → scene-031 *(sätter `vagval_intention=obeslutsam`)*

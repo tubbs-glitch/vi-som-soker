@@ -53,10 +53,10 @@ You put the papers back. Or you do not.
 ## Choices
 
 - **[Take the collar, the letter, and the note to Gunnar]**
-  You put the collar in your inner pocket. You fold the letter and slip it in. You take the envelope carefully — as if the paper would break from being held. → back *(sets `vet_om_bertil=true`, `bär_attonde_halsband=true`, `har_lapp_till_gunnar=true`, `sanity -15`)*
+  You put the collar in your inner pocket. You fold the letter and slip it in. You take the envelope carefully — as if the paper would break from being held. → back *(sets `vet_om_bertil=true`, `bär_attonde_halsband=true`, `har_lapp_till_gunnar=true`, `sanity -10`)*
 
 - **[Take only the collar and the letter]**
-  The envelope stays. It is not yours. It is for Gunnar, and it has waited for him in a locked chest for fifty-four years. You cannot carry it out. → back *(sets `vet_om_bertil=true`, `bär_attonde_halsband=true`, `sanity -15`)*
+  The envelope stays. It is not yours. It is for Gunnar, and it has waited for him in a locked chest for fifty-four years. You cannot carry it out. → back *(sets `vet_om_bertil=true`, `bär_attonde_halsband=true`, `sanity -8`)*
 
 - **[Read everything, take nothing]**
-  You read. You put it all back exactly where it lay. You close the lid. You spin the wheels off the code. You have seen. That is enough. → back *(sets `vet_om_bertil=true`, `sanity -12`)*
+  You read. You put it all back exactly where it lay. You close the lid. You spin the wheels off the code. You have seen. That is enough. → back *(sets `vet_om_bertil=true`, `sanity -3`)*

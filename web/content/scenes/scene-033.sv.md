@@ -44,4 +44,4 @@ Du kan ropa. Du kan stå.
   Du säger det åt det håll där kvinnan står. Du säger det utan att höja rösten. Hon väntar en sekund. Sedan säger hon: *Kom.* → scene-034 *(sätter `grå_riktning=ingegerd_först`)*
 
 - **[Tystnad]**
-  Du säger ingenting. Du står. Du står. Du står. Det grå räknar dig till sina. → scene-035 *(sätter `grå_riktning=tyst`, `det_grå+1`, `sanity -3`)*
+  Du säger ingenting. Du står. Du står. Du står. Det grå räknar dig till sina. → scene-035 *(sätter `grå_riktning=tyst`, `det_grå+1`, `sanity -1`)*

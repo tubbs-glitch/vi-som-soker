@@ -69,4 +69,4 @@ She says it without being sure it is true. She says it because she knows it is w
 
 ## Choices
 
-**[Turn toward the Grey]** → scene-037 *(sets `alice_med=true`, `sanity -10`)*
+**[Turn toward the Grey]** → scene-037 *(sets `alice_med=true`, `sanity -3`)*

@@ -69,4 +69,4 @@ Hon säger det utan att vara säker på att det är sant. Hon säger det för at
 
 ## Val
 
-**[Vänd dig mot Det grå]** → scene-037 *(sätter `alice_med=true`, `sanity -10`)*
+**[Vänd dig mot Det grå]** → scene-037 *(sätter `alice_med=true`, `sanity -3`)*

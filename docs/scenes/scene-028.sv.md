@@ -27,7 +27,7 @@ Du står kvar en stund. Det är värre än stillhet. En platta som snurrar utan 
 
 Du tänker på Alices anteckning, raden du läste men inte stannade vid. *LP-startas vid 22:47.* Hon menade nålen. Hon menade att någon skulle sänka den.
 
-Klockan i hallen är inte rätt klocka för det här. Den går för långsamt. Men någonstans i huset står tiden ändå framåt.
+Klockan i hallen är inte rätt klocka för det här. Den går för långsamt. Men någonstans i huset rör sig tiden ändå framåt.
 
 ## Val
 
@@ -35,4 +35,4 @@ Klockan i hallen är inte rätt klocka för det här. Den går för långsamt. M
   Du vänder dig in mot rummet. Du har förstått vad som ska göras och vem som ska göra det. → scene-012
 
 - **[Stå kvar i hallen]**
-  Du stannar vid dörrkarmen. Plattan snurrar bakom dig utan att be om någonting. Du kan gå vidare utan hymnen. Du vet inte vad det kostar. Det kommer du veta sedan. → scene-029
+  Du stannar vid dörrkarmen. Plattan snurrar bakom dig utan att be om någonting. Du kan gå vidare utan hymnen. Du vet inte vad det kostar. Det kommer du att veta sedan. → scene-029

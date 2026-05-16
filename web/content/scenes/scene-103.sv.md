@@ -13,7 +13,7 @@ flags_read: [skarpt, MOD]
 
 Du har en sekund. Du har inte ens en sekund.
 
-Något stort vid den övre bjälken lyfter sig — en vingknall hård som en bok som faller från en hylla — och luften i boden är inte luft längre. Den är en kropp. En uggla. Stor. En kattuggla eller en berguv, du hinner inte avgöra; det är en sköld av brun ljum fjäder och en mask av ansikte i mitten, och två ögon som är gula och stilla i ett huvud som rör sig i en fel hastighet.
+Något stort vid den övre bjälken lyfter sig — en vingknall hård som en bok som faller från en hylla — och luften i boden är inte luft längre. Den är en kropp. En uggla. Stor. En kattuggla eller en berguv, du hinner inte avgöra. Det är en sköld av brun ljum fjäder och en mask av ansikte i mitten, och två ögon som är gula och stilla i ett huvud som rör sig i en fel hastighet.
 
 Hon kommer mot dig. Inte rakt. Hon böjer luften runt en stapel ved och hittar linjen ut genom dörren — som är där du står. Hennes vingar är breda nog att fylla dörrhålet.
 

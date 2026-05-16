@@ -386,6 +386,8 @@ export interface Scene {
   choices: Choice[];
   on_enter?: ChoiceConsequence;
   on_exit?: ChoiceConsequence;
+  /** Max antal `→ tillbaka`-val spelaren får göra innan auto-advance. */
+  max_choices?: number;
 }
 
 // Convenience-alias: SceneFile är samma struktur som Scene (parsad från md).

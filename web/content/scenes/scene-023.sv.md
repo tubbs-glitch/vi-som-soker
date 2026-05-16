@@ -31,7 +31,7 @@ Lådor. Ihopstuvade, märkta med Alices handstil i blyerts. *Pumpfett.* *Hundkex
 
 I lådan ligger åtta batterier av den sort som passar en kassettbandspelare från åttiotalet. Du tar två.
 
-Längre in på hyllan står en glasburk. Den är inte märkt. Innehållet är mörkt — som hopvigad sand, eller som något som en gång var vått och har torkat under tryck. Du vrider på locket. Det luktar tjära. Det är inte sand. Det är något hon kallat tjärsten.
+Längre in på hyllan står en glasburk. Den är inte märkt. Innehållet är mörkt — som hoppressad sand, eller som något som en gång var vått och har torkat under tryck. Du vrider på locket. Det luktar tjära. Det är inte sand. Det är något hon kallat tjärsten.
 
 Burken är halvfull.
 
@@ -51,7 +51,7 @@ Lådor. Ihopstuvade, märkta med Alices handstil i blyerts. *Pumpfett.* *Hundkex
 
 I lådan ligger åtta batterier av den sort som passar en kassettbandspelare från åttiotalet. Du tar två.
 
-Längre in på hyllan står en glasburk. Den är inte märkt. Innehållet är mörkt — som hopvigad sand, eller som något som en gång var vått och har torkat under tryck. Du vrider på locket. Det luktar tjära. Det är inte sand. Det är något hon kallat tjärsten.
+Längre in på hyllan står en glasburk. Den är inte märkt. Innehållet är mörkt — som hoppressad sand, eller som något som en gång var vått och har torkat under tryck. Du vrider på locket. Det luktar tjära. Det är inte sand. Det är något hon kallat tjärsten.
 
 Burken är halvfull.
 
@@ -64,13 +64,13 @@ Du är tillbaka i källarförrådet. Spaden i hörnet, hyllan med lådor, glasbu
 ## Val
 
 - **[Ta batterier och tjärsten]**
-  Du lägger de två batterierna i ena fickan, burken i andra. Burken är tyngre än den ser ut. → tillbaka *(sätter `har_tjarsten=true`, `sanity -2`)*
+  Du lägger de två batterierna i ena fickan, burken i andra. Burken är tyngre än den ser ut. → tillbaka *(sätter `har_tjarsten=true`, `sanity -1`)*
 
 - **[Ta bara batterier]**
   Du lämnar burken där den står. Den hör inte till dig. Du sluter locket innan du går. → tillbaka
 
 - **[Titta på kalendern]**
-  Du går närmare. På den 23 juni 1981 har någon skrivit *IH går in* med samma fasta hand som i Alices marginal i sovrummet. På den 24 juni: *Hon kom inte tillbaka.* Du står ett tag. → tillbaka *(`sanity -4`)*
+  Du går närmare. På den 23 juni 1981 har någon skrivit *IH går in* med samma fasta hand som i Alices marginal i sovrummet. På den 24 juni: *Hon kom inte tillbaka.* Du står ett tag. → tillbaka *(`sanity -3`)*
 
 - **[Tillbaka upp]**
   → tillbaka

@@ -32,13 +32,13 @@ Han håller fram en hand. Han har inte stigit upp. Han ber dig komma till honom,
 ## Val
 
 - **[Omfamna]**
-  Du går fram. Du sätter dig på huk. Du tar runt honom. Han är inte kall och inte varm. Han lägger huvudet mot din axel. Han säger ingenting. Han säger ingenting länge. → scene-036 *(sätter `leopold_med=true`, `leopold+2`, `sanity -5`)*
+  Du går fram. Du sätter dig på huk. Du tar runt honom. Han är inte kall och inte varm. Han lägger huvudet mot din axel. Han säger ingenting. Han säger ingenting länge. → scene-036 *(sätter `leopold_med=true`, `leopold+2`, `sanity -3`)*
 
 - **[Sträck ut handen och hjälp honom upp]**
-  Du tar hans hand. Han reser sig långsamt. Han står på samma sätt som han satt — som om kroppen inte var säker på vilket håll som är upp och bestämmer sig efter ditt grepp. → scene-036 *(sätter `leopold_med=true`, `sanity -3`)*
+  Du tar hans hand. Han reser sig långsamt. Han står på samma sätt som han satt — som om kroppen inte var säker på vilket håll som är upp och bestämmer sig efter ditt grepp. → scene-036 *(sätter `leopold_med=true`, `sanity -1`)*
 
 - **[Tala först. Fråga honom om Bertil]** *(kräver `vet_om_bertil=true`)*
-  Du sätter dig på huk framför honom. Du säger: *Jag vet om Bertil.* Mannen bredvid honom — den du sett först nu — vänder huvudet en aning. Inte mot dig. Bara en aning. Leopold andas in. Han säger: *Jag bar honom i tre dagar innan vi bestämde oss att inte berätta för någon. Jag bar honom i fyrtiosex år efter det.* Han ser upp på dig. *Tack.* → scene-036 *(sätter `leopold_med=true`, `talat_om_bertil_med_leopold=true`, `leopold+3`, `bertil_eko+1`, `sanity -8`)*
+  Du sätter dig på huk framför honom. Du säger: *Jag vet om Bertil.* Mannen bredvid honom — den du sett först nu — vänder huvudet en aning. Inte mot dig. Bara en aning. Leopold andas in. Han säger: *Jag bar honom i tre dagar innan vi bestämde oss att inte berätta för någon. Jag bar honom i fyrtiosex år efter det.* Han ser upp på dig. *Tack.* → scene-036 *(sätter `leopold_med=true`, `talat_om_bertil_med_leopold=true`, `leopold+3`, `bertil_eko+1`, `sanity -5`)*
 
 - **[Säg ingenting. Bara stå.]**
-  Du står. Han ser upp på dig. Han ser ner. Efter en stund reser han sig själv. Han kommer inte hela vägen upp. Du tar hans armbåge. → scene-036 *(sätter `leopold_med=true`, `sanity -4`)*
+  Du står. Han ser upp på dig. Han ser ner. Efter en stund reser han sig själv. Han kommer inte hela vägen upp. Du tar hans armbåge. → scene-036 *(sätter `leopold_med=true`, `sanity -2`)*

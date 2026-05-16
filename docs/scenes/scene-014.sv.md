@@ -64,16 +64,16 @@ Du är tillbaka i Leopolds arbetsrum. Skrivbordet med pappren, fotografiet med d
 ## Val
 
 - **[Skumma anteckningarna]**
-  Du bläddrar tre sidor in. Det handlar om vibrationer, om ett membran, om något som öppnas. Du läser inte allt. Du läser tillräckligt. → tillbaka *(sätter `har_lab_anteckningar=true`, `förstår_frekvens+1`, `sanity -4`)*
+  Du bläddrar tre sidor in. Det handlar om vibrationer, om ett membran, om något som öppnas. Du läser inte allt. Du läser tillräckligt. → tillbaka *(sätter `har_lab_anteckningar=true`, `förstår_frekvens+1`, `sanity -3`)*
 
 - **[Läs noga]**
   Du sätter dig i fårskinnsstolen och läser i tjugo minuter. Det handlar om att tunna ut ett membran. Det handlar om hur tunt det får bli innan det går sönder. Det handlar om vad som finns på andra sidan. Han skriver med ren hand om saker som inte ska skrivas om alls. Du står upp för fort när du är klar. Det dröjer en sekund innan rummet är där rummet ska vara. → tillbaka *(sätter `har_lab_anteckningar=true`, `förstår_frekvens+2`, `sanity -10`)*
 
 - **[Ta mässingsnyckeln märkt M]**
-  Du lyfter av den från kroken. Den är tyngre än de andra. Du sätter den i innerfickan. Du tittar genom fönstret igen mot byggnaden. → tillbaka *(sätter `har_mejerinyckel=true`, `sanity -2`)*
+  Du lyfter av den från kroken. Den är tyngre än de andra. Du sätter den i innerfickan. Du tittar genom fönstret igen mot byggnaden. → tillbaka *(sätter `har_mejerinyckel=true`, `sanity -1`)*
 
 - **[Studera gruppfotot]**
-  Du går närmare ramen. Sju ansikten. Två blyertsöverstrukna — ett är en äldre kvinna med stora glasögon, ett en yngre man med skägg. Du läser på baksidan om du kan lyfta av ramen. Du kan. *Hällmyren, midsommarafton 1981.* Inga namn. Du sätter tillbaka det på spiken så rakt du kan. → tillbaka *(sätter `sett_gruppfoto=true`, `vet_om_sallskapet_rykte=true`, `sanity -3`)*
+  Du går närmare ramen. Sju ansikten. Två blyertsöverstrukna — ett är en äldre kvinna med stora glasögon, ett en yngre man med skägg. Du läser på baksidan om du kan lyfta av ramen. Du kan. *Hällmyren, midsommarafton 1981.* Inga namn. Du sätter tillbaka det på spiken så rakt du kan. → tillbaka *(sätter `sett_gruppfoto=true`, `vet_om_sallskapet_rykte=true`, `sanity -2`)*
 
 - **[Lämna rummet utan att röra något]**
   → tillbaka

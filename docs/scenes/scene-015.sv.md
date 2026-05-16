@@ -63,7 +63,7 @@ Du står kvar. Du står kvar längre än du måste. Solen genom det lilla fönst
 
 Lampan i taket ovanför trappan lyser. Gult ljus över de slitna stegen. Trappan ser inte mindre fel ut för det.
 
-Klockan på din arm visar 23:14. Du minns att Gunnar sa att solen inte går ner i kväll. Du minns att han inte sa det med stolthet eller med rädsla, bara sa det.
+Klockan på armen visar 23:14. Du minns att Gunnar sa att solen inte går ner i kväll. Du minns att han inte sa det med stolthet eller med rädsla, bara sa det.
 
 Du tar de sista stegen.
 

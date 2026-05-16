@@ -12,6 +12,7 @@ import type {
 } from "@/lib/story-engine";
 import { useGameStore } from "@/lib/store";
 import { COVER_IMAGE } from "@/lib/scene-images";
+import AudioSync from "./AudioSync";
 
 type StatKey = keyof CharacterStats;
 
@@ -197,20 +198,23 @@ export default function CharCreation() {
 
         <header className="relative z-10 flex items-center justify-between px-6 py-5">
           <span className="wordmark text-base">Vi som söker</span>
-          <div className="annotation flex items-center gap-2">
-            <button
-              className={isEn ? "hover:text-ink" : "text-accent"}
-              onClick={() => setLanguage("sv")}
-            >
-              SV
-            </button>
-            <span className="opacity-50">/</span>
-            <button
-              className={isEn ? "text-accent" : "hover:text-ink"}
-              onClick={() => setLanguage("en")}
-            >
-              EN
-            </button>
+          <div className="flex items-center gap-5">
+            <AudioSync />
+            <div className="annotation flex items-center gap-2">
+              <button
+                className={isEn ? "hover:text-ink" : "text-accent"}
+                onClick={() => setLanguage("sv")}
+              >
+                SV
+              </button>
+              <span className="opacity-50">/</span>
+              <button
+                className={isEn ? "text-accent" : "hover:text-ink"}
+                onClick={() => setLanguage("en")}
+              >
+                EN
+              </button>
+            </div>
           </div>
         </header>
 

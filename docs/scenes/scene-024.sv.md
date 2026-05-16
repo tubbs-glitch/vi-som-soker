@@ -22,10 +22,10 @@ Låset på dörren är gammalt. En patentlås, mässing, en gång blank.
 ## Val
 
 - **[Använd mejerinyckeln]** *(kräver `har_mejerinyckel=true`)*
-  Du sätter nyckeln i. Den vrider sig utan motstånd, som om låset inte använts på decennier men ändå hållits oljat — vilket kanske är värre. Dörren öppnas inåt. Du går in. → vidare *(sätter `oppnat_mejeri=true`, `vet_om_sallskapet=true`, `sallskaps_lager_aktivt=true`, `sanity -12`)*
+  Du sätter nyckeln i. Den vrider sig utan motstånd, som om låset inte använts på decennier men ändå hållits oljat — vilket kanske är värre. Dörren öppnas inåt. Du går in. → vidare *(sätter `oppnat_mejeri=true`, `vet_om_sallskapet=true`, `sallskaps_lager_aktivt=true`, `sanity -3`)*
 
 - **[Bryt upp med verktyg]** *(kräver `verktyg=true` eller `skarpt=true`)*
-  Du sätter kniven eller bändjärnet mot låsets sköld. Det tar tid. Du sliter, vrider, sliter igen. När det ger är det med ett ljud du inte tycker om. Du står med splitter på skon. Du har gjort något i den här byggnaden innan du sett insidan av den. → vidare *(sätter `oppnat_mejeri=true`, `brutit_in_i_mejeri=true`, `vet_om_sallskapet=true`, `sallskaps_lager_aktivt=true`, `sanity -15`)*
+  Du sätter kniven eller bändjärnet mot låsets sköld. Det tar tid. Du sliter, vrider, sliter igen. När det ger är det med ett ljud du inte tycker om. Du står med splitter på skon. Du har gjort något i den här byggnaden innan du sett insidan av den. → vidare *(sätter `oppnat_mejeri=true`, `brutit_in_i_mejeri=true`, `vet_om_sallskapet=true`, `sallskaps_lager_aktivt=true`, `sanity -8`)*
 
 - **[Lämna byggnaden i fred]**
   Du vänder. Du går tillbaka samma stig. Du vet att du kommer tillbaka. Du vet inte när. → tillbaka

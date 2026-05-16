@@ -32,13 +32,13 @@ He puts out a hand. He has not stood up. He is asking you to come to him, not th
 ## Choices
 
 - **[Hold him]**
-  You go to him. You crouch. You put your arms around him. He is not cold and not warm. He lays his head against your shoulder. He says nothing. He says nothing for a long time. → scene-036 *(sets `leopold_med=true`, `leopold+2`, `sanity -5`)*
+  You go to him. You crouch. You put your arms around him. He is not cold and not warm. He lays his head against your shoulder. He says nothing. He says nothing for a long time. → scene-036 *(sets `leopold_med=true`, `leopold+2`, `sanity -3`)*
 
 - **[Reach down and pull him up]**
-  You take his hand. He stands slowly. He stands the way he was sitting — as though the body were not sure which way is up and is taking the lead from your grip. → scene-036 *(sets `leopold_med=true`, `sanity -3`)*
+  You take his hand. He stands slowly. He stands the way he was sitting — as though the body were not sure which way is up and is taking the lead from your grip. → scene-036 *(sets `leopold_med=true`, `sanity -1`)*
 
 - **[Speak first. Ask him about Bertil]** *(requires `vet_om_bertil=true`)*
-  You crouch in front of him. You say: *I know about Bertil.* The man beside him — the one you have only now seen — turns his head a little. Not toward you. Only a little. Leopold takes a breath. He says: *I carried him for three days before we decided not to tell anyone. I carried him for forty-six years after.* He looks up at you. *Thank you.* → scene-036 *(sets `leopold_med=true`, `talat_om_bertil_med_leopold=true`, `leopold+3`, `bertil_eko+1`, `sanity -8`)*
+  You crouch in front of him. You say: *I know about Bertil.* The man beside him — the one you have only now seen — turns his head a little. Not toward you. Only a little. Leopold takes a breath. He says: *I carried him for three days before we decided not to tell anyone. I carried him for forty-six years after.* He looks up at you. *Thank you.* → scene-036 *(sets `leopold_med=true`, `talat_om_bertil_med_leopold=true`, `leopold+3`, `bertil_eko+1`, `sanity -5`)*
 
 - **[Say nothing. Just stand.]**
-  You stand. He looks up at you. He looks down. After a while he rises by himself. He does not come all the way up. You take his elbow. → scene-036 *(sets `leopold_med=true`, `sanity -4`)*
+  You stand. He looks up at you. He looks down. After a while he rises by himself. He does not come all the way up. You take his elbow. → scene-036 *(sets `leopold_med=true`, `sanity -2`)*

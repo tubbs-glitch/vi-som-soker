@@ -32,10 +32,10 @@ På den sidan slutar pärmen. Resten av flikarna är tomma.
 ## Val
 
 - **[Skumma och lägg tillbaka]**
-  Du stänger pärmen. Du sätter den exakt där den stod. Dammet runt den är fortfarande synligt mot platsen. → tillbaka *(`sanity -2`)*
+  Du stänger pärmen. Du sätter den exakt där den stod. Dammet runt den är fortfarande synligt mot platsen. → tillbaka *(`sanity -1`)*
 
 - **[Läs noggrant — alla flikar]**
-  Du läser i fyrtio minuter. Du läser om tonen, om geometrin, om de tre försöken. Du läser hennes egen sista mening, daterad augusti 1983, två veckor innan hon själv inte återvände från myren: *Det är inte forskning längre. Det är ett rum vi inte kan låsa.* Du tar pärmen med dig. → tillbaka *(sätter `har_läst_astrids_parm=true`, `vet_om_astrid=true`, `vet_om_ingegerd=true`, `astrid_eko+1`, `sanity -8`)*
+  Du läser i fyrtio minuter. Du läser om tonen, om geometrin, om de tre försöken. Du läser hennes egen sista mening, daterad augusti 1983, två veckor innan hon själv inte återvände från myren: *Det är inte forskning längre. Det är ett rum vi inte kan låsa.* Du tar pärmen med dig. → tillbaka *(sätter `har_läst_astrids_parm=true`, `vet_om_astrid=true`, `vet_om_ingegerd=true`, `astrid_eko+1`, `sanity -6`)*
 
 - **[Sluta läsa nu]**
-  Du tar bort handen från pappret. Du står upp. Pärmen ligger öppen. → tillbaka *(sätter `vet_om_astrid=true`, `vet_om_ingegerd=true`, `sanity -4`)*
+  Du tar bort handen från pappret. Du står upp. Pärmen ligger öppen. → tillbaka *(sätter `vet_om_astrid=true`, `vet_om_ingegerd=true`, `sanity -2`)*

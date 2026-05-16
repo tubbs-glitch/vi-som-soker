@@ -33,4 +33,4 @@ It is not sound. It is something beginning.
 
 ## Choices
 
-**[On]** → scene-033 *(`sanity -5`)*
+**[On]** → scene-033 *(`sanity -2`)*

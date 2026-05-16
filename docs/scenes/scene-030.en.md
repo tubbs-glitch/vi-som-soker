@@ -40,4 +40,4 @@ On the way back you stumble on a loose plank. You do not fall. You think it is g
 
 ## Choices
 
-**[Back]** → scene-024 *(sets `besokt_myrgraven=true`, `bertil_eko+1`, `sanity -8`)*
+**[Back]** → scene-024 *(sets `besokt_myrgraven=true`, `bertil_eko+1`, `sanity -4`)*

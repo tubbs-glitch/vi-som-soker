@@ -62,7 +62,7 @@ Du är tillbaka i Alices sovrum. Sängen blårutig, dagboken på pulpeten, toffl
 ## Val
 
 - **[Skumma den sista sidan]**
-  *Strömmen är borta sedan torsdag. Skivspelaren har inte spelat på en vecka. Jag ska gå till vedboden imorgon. Jag ska vänta tills L svarar.* I marginalen, med fast hand: *1979-06-23.* Du tänker att det är ett datum. Sedan ser du att det är skrivet utan mellanslag — *19790623* — som en kombination. → tillbaka *(sätter `förstår_alice+1`, `vet_om_trälårs_kod=true`, `sanity -3`)*
+  *Strömmen är borta sedan torsdag. Skivspelaren har inte spelat på en vecka. Jag ska gå till vedboden imorgon. Jag ska vänta tills L svarar.* I marginalen, med fast hand: *1979-06-23.* Du tänker att det är ett datum. Sedan ser du att det är skrivet utan mellanslag — *19790623* — som en kombination. → tillbaka *(sätter `förstår_alice+1`, `vet_om_trälårs_kod=true`, `sanity -2`)*
 
 - **[Läsa hela dagboken — sex år bakåt]**
   Du sätter dig på sängkanten. Du läser i fyrtio minuter. Du läser om sju hundar, en åt gången, en grav om året. Du läser om att vänta på en man som aldrig kommer hem. Du läser om en frekvens, om en takt, om en kropp som hon inte tror finns kvar men ändå inte kan släppa. Du läser om en bror som hon inte heller har släppt. Hon nämner honom bara en gång. *Han var inte din far,* skriver hon. *Han var min. Och jag visste.* Du har en mamma som heter Inger. Du har aldrig hört talas om någon bror till henne. Du har inte heller frågat. → tillbaka *(sätter `förstår_alice+2`, `vet_om_trälårs_kod=true`, `har_läst_dagboken=true`, `sanity -10`, `alice+1`)*

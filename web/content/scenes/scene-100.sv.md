@@ -11,7 +11,7 @@ flags_set: []
 flags_read: []
 ---
 
-Du går ut igen. Dörren är tyngre på vägen ut än den var på vägen in, men kanske är det bara armen som tröttnar fortare nu. Du drar igen den efter dig och hör låsklicket som inte är ett lås, bara dörren som sluter mot trösken.
+Du går ut igen. Dörren är tyngre på vägen ut än den var på vägen in, men kanske är det bara armen som tröttnar fortare nu. Du drar igen den efter dig och hör låsklicket som inte är ett lås, bara dörren som sluter mot tröskeln.
 
 Klockan är någonstans efter midnatt. Det går inte att säga var i tiden du är. Solen står låg över fjällkanten i nordväst, kall och blå och utan riktning. Skuggorna från huset faller åt två håll samtidigt och åt inget håll alls. Det är ljust som tidig morgon. Det är inte morgon.
 
@@ -21,7 +21,7 @@ Framför dig: tomten. Trädgården brer ut sig till höger, in mot skogsbrynet. 
 
 Du står på den nedersta trappstenen. Knottet hittar dig efter två sekunder. Du tar fyra steg ut på gruset.
 
-Härifrån ser du inte ledningsstolpen. Den måste stå nere vid hörnet, dold bakom en uppskjuten häck eller bakom själva rönnträden. Du måste gå för att veta.
+Härifrån ser du inte ledningsstolpen. Den måste stå nere vid hörnet, dold bakom en övervuxen häck eller bakom själva rönnträden. Du måste gå för att veta.
 
 ## Val
 

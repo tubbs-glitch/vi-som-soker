@@ -19,9 +19,9 @@ Det finns fyra till. Några av dem är öppna för dig nu. Några har du redan s
 
 Om du vill kan du börja om.
 
-Du kommer minnas vissa saker som inte är skrivna för dig att minnas — en kombination i en marginal, en kvinna i grå kofta som inte vänder sig om, en gravsten 600 meter ut på myren — och du kommer veta saker den du var i början inte visste. Det är vad omspel är. Det är inte snusk. Det är att gå tillbaka in i ett hus du nu vet är ett hus.
+Du kommer att minnas vissa saker som inte är skrivna för dig att minnas — en kombination i en marginal, en kvinna i grå kofta som inte vänder sig om, en gravsten 600 meter ut på myren — och du kommer att veta saker den du var i början inte visste. Det är vad omspel är. Det är inte fusk. Det är att gå tillbaka in i ett hus du nu vet är ett hus.
 
-Mejeribyggnaden står kvar. Den står där den stod 1873, den står där den stod 1981, den står där den stod när du körde in på uppfarten. Den kommer stå när du stänger sidan.
+Mejeribyggnaden står kvar. Den står där den stod 1873, den står där den stod 1981, den står där den stod när du körde in på uppfarten. Den kommer att stå när du stänger sidan.
 
 Tjälen släpper. Tjälen tar.
 

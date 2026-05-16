@@ -44,4 +44,4 @@ You can call. You can stand.
   You say it in the direction where the woman stands. You say it without raising your voice. She waits a second. Then she says: *Come.* → scene-034 *(sets `grå_riktning=ingegerd_först`)*
 
 - **[Silence]**
-  You say nothing. You stand. You stand. You stand. The grey counts you among its own. → scene-035 *(sets `grå_riktning=tyst`, `det_grå+1`, `sanity -3`)*
+  You say nothing. You stand. You stand. You stand. The grey counts you among its own. → scene-035 *(sets `grå_riktning=tyst`, `det_grå+1`, `sanity -1`)*

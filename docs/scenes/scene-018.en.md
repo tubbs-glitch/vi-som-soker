@@ -62,10 +62,10 @@ You are back in the guest room. The bed, the wardrobe with no handles, the dress
 ## Choices
 
 - **[Take the seventh]**
-  You hold it in your hand. The leather is dry, the tag cold. It is a collar that wants to be carried. You put it in your inner pocket. → back *(sets `bär_halsband=sjunde`, `vet_om_signe=true`, `sanity -2`)*
+  You hold it in your hand. The leather is dry, the tag cold. It is a collar that wants to be carried. You put it in your inner pocket. → back *(sets `bär_halsband=sjunde`, `vet_om_signe=true`, `sanity -1`)*
 
 - **[Take the sixth]**
-  You look at the date. *Signe V 2011–2017.* Six years. You remember Alice crying on the phone that autumn. You remember not calling her back. → back *(sets `bär_halsband=sjätte`, `vet_om_signe=true`, `sanity -3`)*
+  You look at the date. *Signe V 2011–2017.* Six years. You remember Alice crying on the phone that autumn. You remember not calling her back. → back *(sets `bär_halsband=sjätte`, `vet_om_signe=true`, `sanity -2`)*
 
 - **[Read all the names aloud]**
   You read them as she would have. It takes a time to say them. The room becomes too quiet between the names. When you are finished there is no other sound in the house but the clock in the living room, and you cannot hear that from here. → back *(sets `läst_namn=true`, `vet_om_signe=true`, `sanity -8`)*

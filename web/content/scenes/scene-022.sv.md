@@ -19,7 +19,7 @@ Du tar i klinkan. Den ger inte direkt — fukten i trävirket har dragit den sne
 
 Bakom dörren börjar ett mörker som inte ens det blå skymningsljuset utanför hade förändrat. Det är ett annat mörker.
 
-Du känner kallrök neranför. Lera, något surt, tjära långt borta.
+Du känner kallrök nedanför. Lera, något surt, tjära långt borta.
 
 Du ser inte ett enda trappsteg.
 
@@ -39,7 +39,7 @@ Dörren till källaren sitter under trappan upp, lågt, så lågt att du måste 
 
 Bakom dörren börjar mörkret genast. Det är husets enda riktiga mörker just nu. Däruppe är allt blått. Här är allt bara svart. Det finns ingen lampa i taket över trappan — bara en kabel som slutar i tomt.
 
-Du står med handen mot dörrkarmen. Du känner kallrök från jordkällaren neranför. Den luktar lera och något surt som inte är mat och inte är mögel, något äldre. Det luktar tjära mycket långt borta.
+Du står med handen mot dörrkarmen. Du känner kallrök från jordkällaren nedanför. Den luktar lera och något surt som inte är mat och inte är mögel, något äldre. Det luktar tjära mycket långt borta.
 
 Trappstegen är av sten. Du ser de två översta från ljuset bakom dig. Det tredje förlorar du.
 
@@ -50,7 +50,7 @@ Du står åter framför källardörren. Klinkan i järn, dörren låg under trap
 ## Val
 
 - **[Gå ner med ljus]** *(kräver `har_ljus=true`)*
-  Du tänder. Strålen söker av stegen och hittar lerväggen längre ner, fuktfläckar i mönster du inte vill stanna kvar vid. Du går ner. Du räknar stegen. Tolv. → scene-023 *(`sanity -2`)*
+  Du tänder. Strålen söker av stegen och hittar lerväggen längre ner, fuktfläckar i mönster du inte vill stanna kvar vid. Du går ner. Du räknar stegen. Tolv. → scene-023 *(`sanity -1`)*
 
 - **[Gå tillbaka och leta efter ljus]**
   Du backar ut. Du stänger dörren bakom dig — för att hålla in mörkret eller för att hålla det ute, du har inte bestämt dig. → tillbaka

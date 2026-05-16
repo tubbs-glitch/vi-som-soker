@@ -65,6 +65,7 @@ export interface RawFrontmatter {
   sanity_delta?: number;
   flags_set?: unknown[];
   flags_read?: unknown[];
+  max_choices?: number;
 }
 
 // Choice-rubrik på egen rad. Med eller utan inledande "- ".
@@ -514,5 +515,9 @@ export function parseScene(source: string, fallbackId: string): Scene {
     prose_power_on: variants.prose_power_on,
     prose_revisit: variants.prose_revisit,
     choices,
+    max_choices:
+      typeof fm.max_choices === "number" && fm.max_choices > 0
+        ? fm.max_choices
+        : undefined,
   };
 }

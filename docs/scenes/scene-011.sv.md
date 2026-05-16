@@ -11,7 +11,7 @@ flags_set: [set_koppel]
 flags_read: []
 ---
 
-Du står innanför dörren. Den har stängts bakom dig själv. Det är mörkt.
+Du står innanför dörren. Den har stängts bakom dig. Det är mörkt.
 
 Inte natt-mörkt. Inte stadens mörker med lampor utanför rutan. Det är ett mörker som har lagt sig inomhus, och som det blå skymningsljuset utanför inte når in i. Du står stilla med ryggen mot dörren.
 

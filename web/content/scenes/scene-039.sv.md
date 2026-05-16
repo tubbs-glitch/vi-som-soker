@@ -21,7 +21,7 @@ Du går upp.
 
 Det är ljust ute. Klockan är tre på morgonen och solen står på fjället. Du går genom hallen. På den tomma kroken — den sjunde kroken som varit tom — sitter ett halsband nu. Det är inte du som hängt det. Det vet du.
 
-Du går ut på trappen. Gunnar står på sin egen trappa fyrahundra meter bort. Han ser dig. Han lyfter inte handen, men han ser dig.
+Du går ut på trappan. Gunnar står på sin egen trappa fyrahundra meter bort. Han ser dig. Han lyfter inte handen, men han ser dig.
 
 ---
 
@@ -31,7 +31,7 @@ Hon planterar tulpaner inför hösten. Det är fel årstid — hon vet det och d
 
 Han säger inte mycket. Han säger två meningar om dagen. En av dem är god morgon. Den andra varierar.
 
-På vinden hör du steg ibland. Du kollar inte. Mata-skålen vid lukan är alltid tom på morgnarna.
+På vinden hör du steg ibland. Du kollar inte. Matskålen vid luckan är alltid tom på morgnarna.
 
 Du tänker att din mamma ska komma upp i september. Du har ringt henne. Hon vet inte vad hon ska säga. Hon kommer ändå.
 

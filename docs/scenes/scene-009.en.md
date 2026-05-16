@@ -53,4 +53,4 @@ You stand with the phone in your hand. You stand there until the battery indicat
 
 ## Choices
 
-- **[Go in now]** → scene-010 *(sets `vet_om_tjarsten_korrekt=true`, `vet_om_per_magnus_djup=true`, `sanity -2`)*
+- **[Go in now]** → scene-010 *(sets `vet_om_tjarsten_korrekt=true`, `vet_om_per_magnus_djup=true`, `sanity -1`)*

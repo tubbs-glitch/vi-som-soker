@@ -32,12 +32,12 @@ Inget annat. Ingen vers. Inga blommor.
 
 Den ligger inte rakt. Tjälen har tryckt ena hörnet uppåt.
 
-Du står där. Du står där en stund. Du säger ingenting för du har ingenting att säga. Du tänker på en hund som hette Tora och som låg bredvid honom på en fredag och en lördag. Du tänker på din mamma som har haft en bror som hon aldrig nämnt. Du tänker på att tjälen kommer att fortsätta trycka och att stenen om femtio år kommer ligga snett åt andra hållet.
+Du står där. Du står där en stund. Du säger ingenting för du har ingenting att säga. Du tänker på en hund som hette Tora och som låg bredvid honom på en fredag och en lördag. Du tänker på din mamma som har haft en bror som hon aldrig nämnt. Du tänker på att tjälen kommer att fortsätta trycka och att stenen om femtio år kommer att ligga snett åt andra hållet.
 
 Myren ångar. Den ångar fel håll mot vinden men det finns ingen vind så det spelar ingen roll. Du står med byxorna våta upp till låret.
 
-På väg tillbaka snubblar du över en planka som lossnat. Du tar inte fall. Du tänker att det är bra att ingen ser dig.
+På väg tillbaka snubblar du över en planka som lossnat. Du faller inte. Du tänker att det är bra att ingen ser dig.
 
 ## Val
 
-**[Tillbaka]** → scene-024 *(sätter `besokt_myrgraven=true`, `bertil_eko+1`, `sanity -8`)*
+**[Tillbaka]** → scene-024 *(sätter `besokt_myrgraven=true`, `bertil_eko+1`, `sanity -4`)*
