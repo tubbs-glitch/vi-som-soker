@@ -190,10 +190,12 @@ export default function CharCreation() {
             src={COVER_IMAGE.src}
             alt={isEn ? COVER_IMAGE.alt_en : COVER_IMAGE.alt_sv}
             className="w-full h-full object-cover image-fade-in"
-            style={{ filter: "contrast(1.05) saturate(0.82) brightness(0.85)" }}
+            style={{ filter: "contrast(1.05) saturate(0.78) brightness(0.5)" }}
           />
           <span className="image-grain" aria-hidden="true" />
-          <div className="absolute inset-0 bg-gradient-to-b from-bg/40 via-bg/30 to-bg" />
+          {/* Tyngre gradient i nedre halvan där texten ligger — säkerställer
+              läsbarhet utan att gömma bilden helt */}
+          <div className="absolute inset-0 bg-gradient-to-b from-bg/50 via-bg/70 to-bg" />
         </div>
 
         <header className="relative z-10 flex items-center justify-between px-6 py-5">
@@ -235,6 +237,7 @@ export default function CharCreation() {
               letterSpacing: "-0.02em",
               fontVariationSettings: '"opsz" 72',
               animation: "fade-up 1200ms 400ms both",
+              textShadow: "0 2px 8px rgba(0,0,0,0.7)",
             }}
           >
             {isEn ? (
@@ -252,8 +255,11 @@ export default function CharCreation() {
             )}
           </h1>
           <p
-            className="font-serif italic text-ink-dim text-lg max-w-md leading-relaxed mb-10"
-            style={{ animation: "fade-up 1200ms 700ms both" }}
+            className="font-serif italic text-ink text-lg max-w-md leading-relaxed mb-10"
+            style={{
+              animation: "fade-up 1200ms 700ms both",
+              textShadow: "0 1px 2px rgba(0,0,0,0.6)",
+            }}
           >
             {isEn
               ? "Your aunt has not been seen since the storm. Three days. The car is on the drive. The post is still in the box."
@@ -421,13 +427,13 @@ export default function CharCreation() {
                       "ärr_ögonbryn",
                       isEn
                         ? "a pale scar over one brow"
-                        : "en blek ärr över ena ögonbrynet",
+                        : "ett blekt ärr över ena ögonbrynet",
                     ],
                     [
                       "stelnad_ringfinger",
                       isEn
                         ? "a ring finger that won't quite move"
-                        : "en ringfinger som inte rör sig som den ska",
+                        : "ett ringfinger som inte rör sig som det ska",
                     ],
                     [
                       "tatuering_underarm",

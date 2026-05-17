@@ -16,6 +16,7 @@ import PackingScene from "./PackingScene";
 import RitualScene from "./RitualScene";
 import HouseMap from "./HouseMap";
 import AudioSync from "./AudioSync";
+import FeedbackWidget from "./FeedbackWidget";
 
 interface Props {
   initialScene: Scene;
@@ -203,6 +204,11 @@ export default function SceneView({ initialScene, initialAvailable }: Props) {
     let cancelled = false;
     setSceneMissing(false);
     setPending(null);
+    // Skrolla alltid till toppen vid scen-byte så spelaren börjar läsa från
+    // början, inte mitt i.
+    if (typeof window !== "undefined") {
+      window.scrollTo({ top: 0, behavior: "auto" });
+    }
     loadSceneClient(targetSceneId, targetLanguage)
       .then((s) => {
         if (cancelled) return;
@@ -431,8 +437,9 @@ export default function SceneView({ initialScene, initialAvailable }: Props) {
           </>
         )}
 
-        <footer className="mt-12 flex justify-start items-center annotation">
+        <footer className="mt-12 flex justify-between items-center annotation">
           <span>{scene?.id ?? ""}</span>
+          <FeedbackWidget />
         </footer>
       </main>
 
