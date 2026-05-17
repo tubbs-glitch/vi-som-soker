@@ -19,6 +19,20 @@ Du går fram.
 
 Låset på dörren är gammalt. En patentlås, mässing, en gång blank.
 
+## I ficklampans sken
+
+Du för käglan över byggnaden från fyra meters håll. Den hittar låset. Mässingen lyser tillbaka i en gul ton som inte hör hemma i det blå utanför. Käglan letar sig upp till dörrkarmen — torr färg, fjäder, en bit fågelbo i sprickan.
+
+Du flyttar käglan över ena fönstret. Glaset är fett. Du ser ingen genomsikt. Du ser bara strålens reflex tillbaka mot dig själv.
+
+Du stryker käglan över väggen. Plåten är fläckig av rost där färgen tappat fäste. Du hittar inga andra dörrar. Du hittar inga andra fönster.
+
+Du sänker käglan och går fram till låset.
+
+## Tillbaka i rummet
+
+Du är åter vid mejeribyggnaden. Plåten falurött, dörren i mitten, det gamla låset. Du har varit här. Du går in om du gjort det innan, eller gör det igen.
+
 ## Val
 
 - **[Använd mejerinyckeln]** *(kräver `har_mejerinyckel=true`)*

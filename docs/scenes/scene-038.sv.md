@@ -13,17 +13,35 @@ flags_read: [besegrat_det_grå, alice_med, leopold_med, valt_offra_sig, stoppat_
 
 Ekot.
 
-Ekot från andra sidan tunnas ut. Det är en klingande punkt i ingenting — du har vetat det utan att ha sett det — och den klingande punkten är snart inte mer. Du hör hymnen där borta, fjärde strof, fyrtiosjunde takten. Du hör nålen som hoppar.
+Ekot från andra sidan tunnas ut. Det är en klingande punkt i ingenting — du har vetat det utan att ha sett det — och den klingande punkten är snart inte mer. Du hör hymnen där borta, fjärde strof, fyrtiosjunde takten. Den fjärde strofen är den enda som har bärkraft. Astrid skrev det. Du vet det utan att tänka det.
+
+Du hör nålen som hoppar. Sedan hör du den inte.
 
 Du har sekunder.
 
-Du tar Alice i handen. Du tar Leopold i armbågen. Eller du tar bara den ena. Eller du tar ingen. Eller du står själv och de andra två rör sig mot ljuset utan dig.
+Du står med ena handen utsträckt mot punkten där punkten håller på att inte vara. Du står med den andra handen tom — eller inte tom — du vet inte. Du vet inte vems hand du håller. Du vet inte om du håller någons. Du vet inte ens om du står kvar på det som hade fasonen av ett golv. Det grå lossnar i kanterna.
+
+Du vänder huvudet.
+
+Alice är där. Eller hon är på väg. Eller hon vänder sig om för att se på något du inte ser.
+
+Leopold är där. Eller han har redan tagit klivet. Eller han håller sig kvar.
 
 Du har sekunder.
 
-Du har inte sekunder.
+Du har inte sekunder. Du har vad det än är som finns när sekunder slutar.
+
+Du tar Alice i handen. Du tar Leopold i armbågen. Eller du tar bara den ena. Eller du tar ingen. Eller du står själv och de andra två rör sig mot ljuset utan dig. Eller ljuset rör sig mot dig och du inte mot det.
+
+Det är inte ett val du gör.
+
+Det är ett val som har gjorts av allt du har gjort fram till nu — och du upptäcker bara vilket.
+
+Du andas in en gång.
 
 Du tar steget.
+
+Eller du tar det inte.
 
 ---
 

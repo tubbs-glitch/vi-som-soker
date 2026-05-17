@@ -17,6 +17,16 @@ Du sätter dig på huk. Du torkar bort dammet med handen. På locket är initial
 
 Du vrider hjulen.
 
+## I ficklampans sken
+
+Du sätter käglan på lådan. Träet är torrt. Beslagen lyser. Du ser hur mässingen är slipad ojämnt på två av de tre — som om man rört dem mer än det tredje. Du flyttar käglan över locket. Initialerna i blyerts står där de står. *vss.*
+
+Du sänker käglan mot golvet bredvid lådan. Det är torra tiljor och en gammal hund-skål av plåt som glömts kvar. Skålen är tom. Du flyttar käglan tillbaka mot låset.
+
+## Tillbaka i rummet
+
+Lådan står där den stått sedan 1986. Tre mässingsbeslag, fyra sifferhjul på var. *vss* i blyerts. Du sätter dig på huk igen. Eller du gör det inte.
+
 ## Val
 
 - **[Slå koden 1979-06-23]** *(kräver `vet_om_trälårs_kod=true`)*
@@ -34,19 +44,55 @@ Du vrider hjulen.
 
 I lådan ligger papper. Och under papperen, lindat i en gammal näsduk: ett halsband av brunt läder med en mässingsbricka.
 
-Du tar upp brickan. *Tora 1972–1979. Hund.* Du läser den två gånger.
+Du tar upp brickan. *Tora 1972–1979. Hund.* Du läser den två gånger. Lädret är slitet på ett ställe — där en hand suttit. Det är slitet *inifrån*, inte utanpå.
 
 Det är det åttonde halsbandet. Det finns sju krokar i hallen och sju halsband i lådan i gästrummet. Det här är ett halsband ingen pratat om.
 
-Du läser papperen.
+Du lägger ner halsbandet på golvet bredvid dig. Du tar papperen.
 
-Det första är ett brev. Maskinskrivet på en gammal Halda, daterat 12 april 1979. *Kära Helene. Det är två år sedan du gick. Jag har inte skrivit på två år och du har inte skrivit på två år. Jag vet att jag inte fick brev. Jag vet att jag inte borde vänta brev. Men jag ville bara säga att Tora dog igår och att jag har grävt henne under rönnen vid bron. Hon låg bredvid mig på fredagskvällen. Hon låg bredvid mig på lördagsmorgonen. Det var allt jag bad om. Din Bertil.*
+---
 
-Det andra är en skiss. En gravsten på myren, 600 meter ut, vid en björkdunge. Texten på stenen: *Bertil Lindblom, 1935 - midsommar 1979.* Inget datum. Inga blommor. Bara den ena raden.
+Det första är ett brev. Maskinskrivet på en gammal Halda. Bokstäverna är inte jämnt påslagna — vissa har mer bläck, vissa nästan inget. *e:n* är lite för högt. *r:n* är låga. En människas maskin.
+
+Daterat 12 april 1979.
+
+*Kära Helene.*
+
+*Det är två år sedan du gick. Jag har inte skrivit på två år och du har inte skrivit på två år. Jag vet att jag inte fick brev. Jag vet att jag inte borde vänta brev. Men jag ville bara säga att Tora dog igår och att jag har grävt henne under rönnen vid bron.*
+
+*Hon låg bredvid mig på fredagskvällen. Hon låg bredvid mig på lördagsmorgonen. På söndagen var hon inte med längre men hon andades i två dagar till. Jag satt vid den ena sidan av henne och Alice satt vid den andra. Alice grät inte. Jag grät inte heller men jag har gråtit sedan. Jag tror jag måste säga det till någon och du är den enda som inte kan svara.*
+
+*Astrid kom upp på onsdagen för att se på Tora. Hon skrev i sin pärm. Jag ville inte ha henne där. Alice ville inte ha henne där. Astrid sa att det var viktigt för det som kommer. Jag vet inte vad som kommer. Jag vet att jag inte vill att Tora ska vara viktig.*
+
+*Jag tänkte på dig hela tisdagen. Jag tänkte att vi grävde Snorre tillsammans den hösten innan du gick. Vi hade då en spade var. Idag hade jag bara en. Alice höll i Toras huvud. Det räcker så.*
+
+*Min bror har bett mig stanna kvar i sommar. Han säger att vi är så nära nu. Han säger att Astrids mätningar visar att vi har hittat rätt riktning. Jag tror på honom. Jag tror också att jag är för gammal för att tro på honom. Men jag stannar. Jag stannar därför att Alice stannar och därför att jag inte vet vad jag annars skulle göra. Huset är fullt av ljud när jag är ensam i det. Tora hade hört dem också. Det var bra med två som hörde.*
+
+*Din Bertil.*
+
+Du sätter brevet i knäet.
+
+Han skriver till sin döda fru. Han skriver om sin döda hund. Han skriver att hans bror — din morbror Leopold — har bett honom stanna kvar i sommar. Två månader senare ska han gå ner i den första cirkeln och inte komma upp.
+
+---
+
+Det andra är en skiss. En blyertsskiss på rutigt papper. En gravsten på myren, 600 meter ut, vid en björkdunge. Texten på stenen: *Bertil Lindblom, 1935 - midsommar 1979.* Inget datum. Inga blommor. Bara den ena raden.
+
+I marginalen på skissen, med en annan hand — Alices, du känner igen den från dagboken — står det: *L grät i sex dagar. Den sjunde dagen sa han att vi gör om det. Jag sa nej. Jag har inte sagt ja sen heller.*
+
+---
 
 Det tredje är ett kuvert. Det är inte öppnat. Adresserat med samma maskin: *Till min son Gunnar — först när jag är borta. /O.*
 
-Du sitter på huk. Du har en morbror till. Du har haft det hela ditt liv utan att veta det. Du har en morbror som ingen pratat om sedan 1979 och som ligger någonstans i en myr 600 meter ut.
+Kuvertet är gult. Limmet har gått. Det har legat hopvikt över hörnet längst ner, inte öppnat — bara åldrats hopvikt. Olov skrev det och låste in det och dog 1992 utan att lämna det till sin son.
+
+Gunnar är fyrtio meter härifrån just nu. Han har varit fyrtio meter från det här kuvertet i tjugofyra år.
+
+---
+
+Du sitter på huk.
+
+Du har en morbror till. Du har haft det hela ditt liv utan att veta det. Du har en morbror som ingen pratat om sedan 1979 och som ligger någonstans i en myr 600 meter ut. Han skrev till en kvinna som inte längre fanns. Han satt vid en hund som han älskade på samma sätt som man älskar en make. Han stannade en sommar för sin brors skull. Den brodern är fortfarande där nere på andra sidan och har inte gått hem på sju år.
 
 Du lägger papperen tillbaka. Eller du gör det inte.
 
