@@ -1,6 +1,28 @@
 // Scen-id → bild i /public/images.
+// Två stilvarianter: foto (Tunbjörk-aktig dokumentärfotografi) och
+// illustration (bonadsmålning från Härjedalen 1800-tal).
+// Spelaren väljer stil i UI:t. Filen `illu-{scene-id}.png` används om
+// stil = illustration; annars original-filen.
+//
 // Vid behov av nya bilder, generera via .claude/skills/gemini-imagegen
 // och placera under web/public/images, sedan lägg in i denna mappning.
+
+export type ImageStyle = "photo" | "illustration";
+
+/**
+ * Bygg image-src baserat på stil. Om illustration är vald men illustration
+ * saknas, fallback till foto.
+ */
+export function imageSrcForStyle(
+  baseSrc: string,
+  sceneId: string,
+  style: ImageStyle,
+): string {
+  if (style === "illustration") {
+    return `/images/illu-${sceneId}.png`;
+  }
+  return baseSrc;
+}
 
 export const SCENE_IMAGES: Record<
   string,
@@ -267,4 +289,12 @@ export const COVER_IMAGE = {
     "En blek himmel sedd genom ett fönster. Klockan är efter midnatt och solen rör sig inte.",
   alt_en:
     "A pale sky seen through a window. It is past midnight and the sun does not move.",
+};
+
+export const COVER_IMAGE_ILLU = {
+  src: "/images/illu-hero-hallmyren.png",
+  alt_sv:
+    "Härjedalen-bonad: ett falurött timrat hus omslutet av stiliserade träd och kurbitskransar.",
+  alt_en:
+    "Härjedalen tapestry: a red wooden house surrounded by stylised trees and acanthus borders.",
 };

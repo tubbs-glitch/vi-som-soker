@@ -11,7 +11,7 @@ import type {
   Hair,
 } from "@/lib/story-engine";
 import { useGameStore } from "@/lib/store";
-import { COVER_IMAGE } from "@/lib/scene-images";
+import { COVER_IMAGE, COVER_IMAGE_ILLU } from "@/lib/scene-images";
 import AudioSync from "./AudioSync";
 
 type StatKey = keyof CharacterStats;
@@ -127,7 +127,10 @@ export default function CharCreation() {
   const language = useGameStore((s) => s.state.meta.language);
   const setLanguage = useGameStore((s) => s.setLanguage);
   const startGame = useGameStore((s) => s.startGame);
+  const imageStyle = useGameStore((s) => s.imageStyle);
+  const setImageStyle = useGameStore((s) => s.setImageStyle);
   const isEn = language === "en";
+  const cover = imageStyle === "illustration" ? COVER_IMAGE_ILLU : COVER_IMAGE;
 
   const [phase, setPhase] = useState<Phase>("intro");
 
@@ -187,10 +190,15 @@ export default function CharCreation() {
         <div className="absolute inset-0 z-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={COVER_IMAGE.src}
-            alt={isEn ? COVER_IMAGE.alt_en : COVER_IMAGE.alt_sv}
+            src={cover.src}
+            alt={isEn ? cover.alt_en : cover.alt_sv}
             className="w-full h-full object-cover image-fade-in"
-            style={{ filter: "contrast(1.05) saturate(0.78) brightness(0.5)" }}
+            style={{
+              filter:
+                imageStyle === "illustration"
+                  ? "contrast(0.95) saturate(0.9) brightness(0.55)"
+                  : "contrast(1.05) saturate(0.78) brightness(0.5)",
+            }}
           />
           <span className="image-grain" aria-hidden="true" />
           {/* Tyngre gradient i nedre halvan där texten ligger — säkerställer
@@ -202,6 +210,33 @@ export default function CharCreation() {
           <span className="wordmark text-base">Vi som söker</span>
           <div className="flex items-center gap-5">
             <AudioSync />
+            <div className="annotation flex items-center gap-2">
+              <button
+                onClick={() =>
+                  setImageStyle(
+                    imageStyle === "photo" ? "illustration" : "photo",
+                  )
+                }
+                className="hover:text-ink transition-colors"
+                title={
+                  isEn
+                    ? imageStyle === "photo"
+                      ? "switch to tapestry style"
+                      : "switch to photo style"
+                    : imageStyle === "photo"
+                      ? "byt till bonad-stil"
+                      : "byt till foto-stil"
+                }
+              >
+                {imageStyle === "photo"
+                  ? isEn
+                    ? "photo"
+                    : "foto"
+                  : isEn
+                    ? "tapestry"
+                    : "bonad"}
+              </button>
+            </div>
             <div className="annotation flex items-center gap-2">
               <button
                 className={isEn ? "hover:text-ink" : "text-accent"}

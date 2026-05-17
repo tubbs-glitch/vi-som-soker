@@ -25,8 +25,10 @@ import { getCurrentRoom, getRoomDef } from "./house-map";
 
 const STORAGE_KEY = "vi-som-soker:state";
 const PHASE_KEY = "vi-som-soker:phase";
+const STYLE_KEY = "vi-som-soker:image-style";
 
 export type Phase = "char-creation" | "playing";
+export type ImageStyle = "photo" | "illustration";
 
 export interface StateDelta {
   sanity?: number;
@@ -39,6 +41,7 @@ export interface StateDelta {
 interface GameStore {
   state: GameState;
   phase: Phase;
+  imageStyle: ImageStyle;
   hydrated: boolean;
   lastDelta: StateDelta | null;
 
@@ -48,6 +51,7 @@ interface GameStore {
   goToRoom: (sceneId: string) => void;
   toggleFlashlight: () => void;
   setLanguage: (lang: Language) => void;
+  setImageStyle: (style: ImageStyle) => void;
   reset: () => void;
   clearDelta: () => void;
   hydrate: () => void;
@@ -137,17 +141,34 @@ function computeDelta(before: GameState, after: GameState): StateDelta {
 export const useGameStore = create<GameStore>((set, get) => ({
   state: createInitialState(),
   phase: "char-creation",
+  imageStyle: "photo",
   hydrated: false,
   lastDelta: null,
 
   hydrate: () => {
     if (get().hydrated) return;
     const saved = loadFromStorage();
-    if (saved) {
-      set({ state: saved.state, phase: saved.phase, hydrated: true });
-    } else {
-      set({ hydrated: true });
+    let style: ImageStyle = "photo";
+    if (typeof window !== "undefined") {
+      try {
+        const s = window.localStorage.getItem(STYLE_KEY) as ImageStyle | null;
+        if (s === "photo" || s === "illustration") style = s;
+      } catch {}
     }
+    if (saved) {
+      set({ state: saved.state, phase: saved.phase, imageStyle: style, hydrated: true });
+    } else {
+      set({ imageStyle: style, hydrated: true });
+    }
+  },
+
+  setImageStyle: (style) => {
+    if (typeof window !== "undefined") {
+      try {
+        window.localStorage.setItem(STYLE_KEY, style);
+      } catch {}
+    }
+    set({ imageStyle: style });
   },
 
   startGame: (character) => {

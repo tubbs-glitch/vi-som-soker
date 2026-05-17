@@ -112,6 +112,8 @@ export default function StatusPanel({ state }: Props) {
   const [open, setOpen] = useState(false);
   const [confirmReset, setConfirmReset] = useState(false);
   const reset = useGameStore((s) => s.reset);
+  const imageStyle = useGameStore((s) => s.imageStyle);
+  const setImageStyle = useGameStore((s) => s.setImageStyle);
   const lang = state.meta.language;
   const isEn = lang === "en";
   const STAT_NAMES = isEn ? STAT_NAMES_EN : STAT_NAMES_SV;
@@ -266,6 +268,37 @@ export default function StatusPanel({ state }: Props) {
               </ul>
             )}
           </section>
+
+          {/* Stil-toggle */}
+          <div className="sm:col-span-2 mt-2 pt-4 border-t border-muted-soft/40 flex justify-between items-center flex-wrap gap-3">
+            <div className="flex items-center gap-3">
+              <span className="annotation">
+                {isEn ? "style" : "stil"}
+              </span>
+              <button
+                onClick={() => setImageStyle("photo")}
+                className={
+                  "annotation px-2 py-1 border transition-colors " +
+                  (imageStyle === "photo"
+                    ? "border-accent text-accent bg-accent/10"
+                    : "border-muted-soft/50 text-muted hover:text-ink")
+                }
+              >
+                {isEn ? "photo" : "foto"}
+              </button>
+              <button
+                onClick={() => setImageStyle("illustration")}
+                className={
+                  "annotation px-2 py-1 border transition-colors " +
+                  (imageStyle === "illustration"
+                    ? "border-accent text-accent bg-accent/10"
+                    : "border-muted-soft/50 text-muted hover:text-ink")
+                }
+              >
+                {isEn ? "tapestry" : "bonad"}
+              </button>
+            </div>
+          </div>
 
           {/* Reset — dolt här inne så det inte klickas av misstag */}
           <div className="sm:col-span-2 mt-2 pt-4 border-t border-muted-soft/40 flex justify-end">

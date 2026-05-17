@@ -171,16 +171,24 @@ function SceneEyebrow({ scene }: { scene: Scene }) {
 
 function HeroImage({ scene }: { scene: Scene }) {
   const img = getSceneImage(scene.id);
+  const style = useGameStore((s) => s.imageStyle);
   if (!img) return null;
+  const src = style === "illustration" ? `/images/illu-${scene.id}.png` : img.src;
   return (
     <figure className="hero-image">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src={img.src}
+        src={src}
         alt={scene.language === "en" ? img.alt_en : img.alt_sv}
         loading="eager"
+        onError={(e) => {
+          // Fallback till foto om illustration saknas
+          if (style === "illustration" && e.currentTarget.src.includes("illu-")) {
+            e.currentTarget.src = img.src;
+          }
+        }}
       />
-      <span className="image-grain" aria-hidden="true" />
+      {style === "photo" && <span className="image-grain" aria-hidden="true" />}
     </figure>
   );
 }
