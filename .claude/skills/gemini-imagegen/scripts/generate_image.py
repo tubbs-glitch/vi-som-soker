@@ -64,6 +64,7 @@ def generate_from_text(prompt: str, output_path: str, model: str = "google/gemin
     
     response = client.chat.completions.create(
         model=model,
+        max_tokens=4096,  # sänkt från default 32768 så credit-reservation blir mindre
         messages=[
             {
                 "role": "user",
@@ -71,7 +72,7 @@ def generate_from_text(prompt: str, output_path: str, model: str = "google/gemin
             }
         ],
     )
-    
+
     return extract_and_save_image(response, output_path)
 
 
