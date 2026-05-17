@@ -141,14 +141,14 @@ function computeDelta(before: GameState, after: GameState): StateDelta {
 export const useGameStore = create<GameStore>((set, get) => ({
   state: createInitialState(),
   phase: "char-creation",
-  imageStyle: "photo",
+  imageStyle: "illustration",
   hydrated: false,
   lastDelta: null,
 
   hydrate: () => {
     if (get().hydrated) return;
     const saved = loadFromStorage();
-    let style: ImageStyle = "photo";
+    let style: ImageStyle = "illustration";
     if (typeof window !== "undefined") {
       try {
         const s = window.localStorage.getItem(STYLE_KEY) as ImageStyle | null;
