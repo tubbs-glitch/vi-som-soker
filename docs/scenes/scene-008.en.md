@@ -30,7 +30,7 @@ He moves to the side of the steps and leans against one of the posts. The gnats 
 
 'You'd best go in,' he says. He does not move.
 
-You stand with the key in your pocket, not yet drawn. You think you have questions, and you think three is what you can manage tonight.
+You stand there with the key not yet fetched. You think you have questions, and you think three is what you can manage tonight.
 
 ## Choices
 
@@ -63,4 +63,4 @@ You stand with the key in your pocket, not yet drawn. You think you have questio
   You take out the slip. You stand on the step and dial. → scene-009
 
 - **[Go in now — past him, to the door]**
-  You take the three steps. He says nothing. You set the key in the lock. → scene-010
+  You take the three steps. He says nothing. → scene-010

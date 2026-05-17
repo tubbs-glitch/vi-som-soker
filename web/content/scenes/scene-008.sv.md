@@ -30,7 +30,7 @@ Han ställer sig vid sidan av trappan och lutar sig mot en av stolparna. Knottet
 
 "Det är väl bäst du går in", säger han. Han säger det utan att flytta sig.
 
-Du står med nyckeln i fickan utan att ha tagit upp den än. Du tänker att du har frågor, och du tänker att tre av dem är vad du orkar nu.
+Du står där utan att ha hämtat nyckeln än. Du tänker att du har frågor, och du tänker att tre av dem är vad du orkar nu.
 
 ## Val
 
@@ -63,4 +63,4 @@ Du står med nyckeln i fickan utan att ha tagit upp den än. Du tänker att du h
   Du tar upp lappen. Du står på trappan och slår numret. → scene-009
 
 - **[Gå in nu — gå förbi honom mot dörren]**
-  Du går de tre stegen. Han säger inget. Du sätter nyckeln i låset. → scene-010
+  Du går de tre stegen. Han säger inget. → scene-010
