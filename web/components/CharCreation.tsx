@@ -185,28 +185,8 @@ export default function CharCreation() {
 
   if (phase === "intro") {
     return (
-      <main className="min-h-screen flex flex-col relative overflow-hidden">
-        {/* Full-bleed hero image as backdrop */}
-        <div className="absolute inset-0 z-0">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={cover.src}
-            alt={isEn ? cover.alt_en : cover.alt_sv}
-            className="w-full h-full object-cover image-fade-in"
-            style={{
-              filter:
-                imageStyle === "illustration"
-                  ? "contrast(0.95) saturate(0.9) brightness(0.55)"
-                  : "contrast(1.05) saturate(0.78) brightness(0.5)",
-            }}
-          />
-          <span className="image-grain" aria-hidden="true" />
-          {/* Tyngre gradient i nedre halvan där texten ligger — säkerställer
-              läsbarhet utan att gömma bilden helt */}
-          <div className="absolute inset-0 bg-gradient-to-b from-bg/50 via-bg/70 to-bg" />
-        </div>
-
-        <header className="relative z-10 flex items-center justify-between px-6 py-5">
+      <main className="min-h-screen flex flex-col bg-bg">
+        <header className="flex items-center justify-between px-6 py-5">
           <span className="wordmark text-base">Vi som söker</span>
           <div className="flex items-center gap-5">
             <AudioSync />
@@ -255,9 +235,26 @@ export default function CharCreation() {
           </div>
         </header>
 
-        <section className="relative z-10 flex-1 flex flex-col justify-end px-6 pb-16 max-w-2xl mx-auto w-full">
+        <section className="flex-1 flex flex-col items-center px-6 pb-10 max-w-md mx-auto w-full">
+          {/* Bild som inramat objekt — inte fullbleed-bakgrund. Funkar för
+              både foto och bonad eftersom texten ligger på solid bg under. */}
+          <figure
+            className="relative w-full mb-8 border border-muted-soft overflow-hidden image-fade-in"
+            style={{ aspectRatio: "4 / 5", maxHeight: "55vh" }}
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={cover.src}
+              alt={isEn ? cover.alt_en : cover.alt_sv}
+              className="w-full h-full object-cover"
+            />
+            {imageStyle === "photo" && (
+              <span className="image-grain" aria-hidden="true" />
+            )}
+          </figure>
+
           <p
-            className="annotation mb-6 opacity-90"
+            className="annotation mb-4 text-center"
             style={{ animation: "fade-in 1200ms 200ms both" }}
           >
             {isEn
@@ -265,45 +262,44 @@ export default function CharCreation() {
               : "Ett story-spel · folk horror · norra sverige"}
           </p>
           <h1
-            className="font-serif font-normal text-ink mb-6"
+            className="font-serif font-normal text-ink mb-5 text-center"
             style={{
-              fontSize: "clamp(2.5rem, 7vw, 4.2rem)",
-              lineHeight: "1.04",
-              letterSpacing: "-0.02em",
-              fontVariationSettings: '"opsz" 72',
+              fontSize: "clamp(2.1rem, 6vw, 3.4rem)",
+              lineHeight: "1.06",
+              letterSpacing: "-0.015em",
+              fontVariationSettings: '"opsz" 60',
               animation: "fade-up 1200ms 400ms both",
-              textShadow: "0 2px 8px rgba(0,0,0,0.7)",
             }}
           >
             {isEn ? (
               <>
-                Some numbers
-                <br />
+                Some numbers{" "}
                 <span className="italic text-accent">stay with you</span>
               </>
             ) : (
               <>
-                Vissa siffror
-                <br />
+                Vissa siffror{" "}
                 <span className="italic text-accent">sitter kvar</span>
               </>
             )}
           </h1>
           <p
-            className="font-serif italic text-ink text-lg max-w-md leading-relaxed mb-10"
+            className="font-serif italic text-ink-dim text-base leading-relaxed mb-8 text-center"
             style={{
               animation: "fade-up 1200ms 700ms both",
-              textShadow: "0 1px 2px rgba(0,0,0,0.6)",
             }}
           >
             {isEn
               ? "Your aunt has not been seen since the storm. Three days. The car is on the drive. The post is still in the box."
               : "Din moster har inte synts till sedan stormen. Tre dagar. Bilen står på uppfarten. Posten ligger ute."}
           </p>
-          <div style={{ animation: "fade-up 1200ms 1000ms both" }}>
+          <div
+            className="w-full max-w-xs"
+            style={{ animation: "fade-up 1200ms 1000ms both" }}
+          >
             <button
               onClick={() => setPhase(1)}
-              className="choice-button max-w-xs"
+              className="choice-button w-full"
               data-emphasis="true"
             >
               <span className="flex items-center justify-between gap-3">
@@ -315,7 +311,7 @@ export default function CharCreation() {
         </section>
 
         <footer
-          className="relative z-10 px-6 py-5 annotation flex justify-between items-center opacity-60"
+          className="px-6 py-5 annotation flex justify-between items-center opacity-60"
           style={{ animation: "fade-in 1200ms 1300ms both" }}
         >
           <span>PoC v0.2</span>
