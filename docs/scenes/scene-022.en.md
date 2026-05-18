@@ -52,5 +52,5 @@ You stand again at the cellar door. Iron latch, low door under the upstairs stai
 - **[Go down with a light]** *(requires `har_ljus=true`)*
   You switch on. The beam runs the treads and finds the clay wall further down, damp patches in shapes you would rather not stay with. You go down. You count the steps. Twelve. → scene-023 *(`sanity -1`)*
 
-- **[Go back and look for light]**
-  You step out. You close the door behind you — to keep the dark in, or to keep it out, you have not decided. → back
+- **[Go back up to the hall]**
+  You step out. You close the door behind you — to keep the dark in, or to keep it out, you have not decided. → scene-011

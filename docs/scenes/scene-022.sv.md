@@ -52,5 +52,5 @@ Du står åter framför källardörren. Klinkan i järn, dörren låg under trap
 - **[Gå ner med ljus]** *(kräver `har_ljus=true`)*
   Du tänder. Strålen söker av stegen och hittar lerväggen längre ner, fuktfläckar i mönster du inte vill stanna kvar vid. Du går ner. Du räknar stegen. Tolv. → scene-023 *(`sanity -1`)*
 
-- **[Gå tillbaka och leta efter ljus]**
-  Du backar ut. Du stänger dörren bakom dig — för att hålla in mörkret eller för att hålla det ute, du har inte bestämt dig. → tillbaka
+- **[Gå tillbaka upp till hallen]**
+  Du backar ut. Du stänger dörren bakom dig — för att hålla in mörkret eller för att hålla det ute, du har inte bestämt dig. → scene-011

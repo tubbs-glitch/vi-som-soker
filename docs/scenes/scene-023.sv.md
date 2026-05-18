@@ -72,5 +72,5 @@ Du är tillbaka i källarförrådet. Spaden i hörnet, hyllan med lådor, glasbu
 - **[Titta på kalendern]**
   Du går närmare. På den 23 juni 1981 har någon skrivit *IH går in* med samma fasta hand som i Alices marginal i sovrummet. På den 24 juni: *Hon kom inte tillbaka.* Du står ett tag. → tillbaka *(`sanity -3`)*
 
-- **[Tillbaka upp]**
-  → tillbaka
+- **[Tillbaka upp till hallen]**
+  Du går de tolv stegen tillbaka, klättrar ut, stänger källardörren bakom dig. → scene-011

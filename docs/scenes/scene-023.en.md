@@ -72,5 +72,5 @@ You are back in the cellar store. The spade in the corner, the shelf of boxes, t
 - **[Look at the calendar]**
   You move closer. On the 23rd of June 1981 someone has written *IH goes in*, in the same firm hand as the margin in Alice's bedroom. On the 24th of June: *She did not come back.* You stand a while. → back *(`sanity -3`)*
 
-- **[Back upstairs]**
-  → back
+- **[Back up to the hall]**
+  You climb the twelve steps back up, close the cellar door behind you. → scene-011
